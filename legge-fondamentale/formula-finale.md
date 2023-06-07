@@ -1,4 +1,3 @@
 # Formula di promulgazione
-Comandiamo che l'originale della presente Legge, munito del sigillo dello Stato, sia depositato nell'Archivio delle Leggi dello Stato della Città del Vaticano, e che il testo corrispondente sia pubblicato nel Supplemento degli Acta Apostolicae Sedis mandando a chiunque spetti di osservarla e di farla osservare.
-Data dal Nostro Palazzo Apostolico Vaticano il ventisei novembre duemila, Solennità di Nostro Signore Gesù Cristo, Re dell'Universo, anno XXIII del Nostro Pontificato.
-IOANNES PAULUS II, PP
+Comando che l'originale della presente legge, munita del sigillo dello Stato, sia depositata nell'Archivio delle leggi dello Stato della Città del Vaticano e che il testo corrispondente sia pubblicato dapprima nel quotidiano L'Osservatore Romano, quindi nel Supplemento degli Acta Apostolicae Sedis, mandandosi a chiunque spetti di osservarla e farla osservare.
+Dal Vaticano, 13 maggio 2023 Festa della Beata Maria Vergine di Fatima XI del Nostro Pontificato.
