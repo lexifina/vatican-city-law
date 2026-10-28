@@ -1,0 +1,51 @@
+{
+ "country": "VA",
+ "acts": [
+  {
+   "slug": "legge-fondamentale",
+   "short": "LF",
+   "title": "Legge fondamentale dello Stato della Città del Vaticano",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html",
+   "versions": [
+    {
+     "from": "2001-02-22",
+     "units": 22,
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=5:la-nuova-legge-fondamentale-dello-s-c-v",
+     "sha256": "7fd67f3bb346ac941d832699bb6801347c8fe0c578f57f1cfbf515d6ba94bcfa"
+    },
+    {
+     "from": "2023-06-07",
+     "units": 31,
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=248:legge-fondamentale-dello-s-c-v-del-13-maggio-2023",
+     "sha256": "57486eeebc29828145c1bfbfc1e286275e4dbde2446787088ed0819e7a2c7023"
+    },
+    {
+     "from": "2025-11-21",
+     "units": 31,
+     "source_url": "https://vaticanstate.va/it/component/content/article/lettera-apostolica-in-forma-di-motu-proprio-del-sommo-pontefice-leone-xiv-sulla-composizione-e-presidenza-della-pontificia-c.html?catid=39&Itemid=312",
+     "sha256": "e6831e53b2ebb52f7487cb40a27572d686ada39380b62f7781a78aa359bf4199"
+    },
+    {
+     "from": "2026-07-31",
+     "units": 32,
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=315:legge-fondamentale-dello-stato-della-citta-del-vaticano-del-31-luglio-2026",
+     "sha256": "2d584547aa7046337d24c4db0d82229d2315ac0e02493b52e15fe4c00b4a7e0f"
+    }
+   ]
+  },
+  {
+   "slug": "legge-fonti-diritto",
+   "short": "LFD",
+   "title": "Legge sulle fonti del diritto (N. LXXI, 1 ottobre 2008)",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10",
+   "versions": [
+    {
+     "from": "2009-01-01",
+     "units": 15,
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10",
+     "sha256": "02f9e191533df1af9b31384d1ac52947740e977660f508e87576581612044b47"
+    }
+   ]
+  }
+ ]
+}

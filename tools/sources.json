@@ -1,0 +1,17 @@
+{
+ "note": "Every document parse.py reads, fetched by fetch.py into .cache/raw/<sha256(url)>. 'check' documents are second official copies used only to verify the parsed text.",
+ "documents": [
+  {"id": "lf-2000", "role": "text", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=5:la-nuova-legge-fondamentale-dello-s-c-v"},
+  {"id": "lf-2023", "role": "text", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=248:legge-fondamentale-dello-s-c-v-del-13-maggio-2023"},
+  {"id": "mp-2025-11-19", "role": "text", "url": "https://vaticanstate.va/it/component/content/article/lettera-apostolica-in-forma-di-motu-proprio-del-sommo-pontefice-leone-xiv-sulla-composizione-e-presidenza-della-pontificia-c.html?catid=39&Itemid=312"},
+  {"id": "lf-2026", "role": "text", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=315:legge-fondamentale-dello-stato-della-citta-del-vaticano-del-31-luglio-2026"},
+  {"id": "lxxi-2008", "role": "text", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10"},
+  {"id": "viii-2013", "role": "text", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-in-materia-penale-e-amministrativa.html?download=96"},
+  {"id": "lf-2023-va", "role": "check", "url": "https://www.vatican.va/content/francesco/it/motu_proprio/documents/20230513-legge-fond-scv.html"},
+  {"id": "lf-2026-va", "role": "check", "url": "https://www.vatican.va/content/leo-xiv/it/motu_proprio/documents/20260731-legge-fondamentale-scv.html"},
+  {"id": "bollettino-2026-07-31", "role": "date", "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/07/31/0611.pdf"},
+  {"id": "list-fondamentali", "role": "index", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html"},
+  {"id": "list-generale-2", "role": "index", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?start=20"},
+  {"id": "list-penale", "role": "index", "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-in-materia-penale-e-amministrativa.html"}
+ ]
+}
