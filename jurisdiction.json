@@ -1,0 +1,11 @@
+{
+  "path": "va",
+  "code": "VA",
+  "name": "Vatican City",
+  "level": "country",
+  "note": "UN observer state",
+  "repo": "https://github.com/lexifina/vatican-city-law",
+  "build": "gazette",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28"
+}
