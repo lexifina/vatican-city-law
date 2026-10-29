@@ -1,0 +1,11 @@
+{
+  "path": "va",
+  "code": "VA",
+  "name": "Vatican City",
+  "level": "country",
+  "note": "UN observer state",
+  "repo": "https://github.com/lexifina/vatican-city-law",
+  "build": "built: Legge fondamentale 2001-2026 (4 versions: laws of 26.11.2000, 13.5.2023 and 31.7.2026, motu proprio of 19.11.2025); Legge sulle fonti del diritto LXXI/2008 (1 version, as enacted); Legge VIII/2013 as enacted on preview only",
+  "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
+  "register_date": "2026-10-28"
+}

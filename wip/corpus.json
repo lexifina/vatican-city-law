@@ -1,0 +1,999 @@
+{
+ "country": {
+  "code": "VA",
+  "name": "Vatican City",
+  "slug": "vatican-city",
+  "lang": "it",
+  "tz": "Europe/Vatican",
+  "future_branch": "futuro",
+  "publisher": {
+   "name": "Governatorato dello Stato della Città del Vaticano (vaticanstate.va)",
+   "email": "governatorato@vaticanstate.invalid"
+  },
+  "default_in_force_rule": {
+   "text": "Legge sulle fonti del diritto, 1 ottobre 2008, n. LXXI, art. 2, n. 2: \"Le leggi entrano in vigore il settimo giorno successivo alla loro pubblicazione, salvo che le leggi stesse stabiliscano un diverso termine.\" Every law used here names its own day or rule of entry into force, which is used.",
+   "source": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10"
+  },
+  "licence_note": "Texts: Governatorato dello Stato della Città del Vaticano, vaticanstate.va (\"Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati\"); check copies from vatican.va (© Dicastero per la Comunicazione - Libreria Editrice Vaticana)."
+ },
+ "sources": [
+  {
+   "name": "Governatorato dello Stato della Città del Vaticano: Legislazione e normativa (vaticanstate.va)",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html",
+   "retrieved": "2026-10-28",
+   "requests": 15,
+   "licence": "Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati",
+   "notes": "Official PDFs of each law (publisher's own text layer) and the Governatorato news page carrying the motu proprio of 19 November 2025. No consolidated texts and no point-in-time versions."
+  },
+  {
+   "name": "La Santa Sede (vatican.va) and Sala Stampa della Santa Sede (press.vatican.va)",
+   "url": "https://www.vatican.va/",
+   "retrieved": "2026-10-28",
+   "requests": 7,
+   "licence": "© Dicastero per la Comunicazione - Libreria Editrice Vaticana",
+   "notes": "HTML copies of the 2023 and 2026 Fundamental Laws, used only to check the parsed text; Bulletin n. 0611 of 31 July 2026 for the publication day of the 2026 law."
+  }
+ ],
+ "laws": {
+  "lf-2000": {
+   "label": "Legge fondamentale 26.11.2000",
+   "kind": "law",
+   "title": "Legge fondamentale dello Stato della Città del Vaticano (Giovanni Paolo II, 26 novembre 2000)",
+   "enacted": "2000-11-26",
+   "published": null,
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=5:la-nuova-legge-fondamentale-dello-s-c-v",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  },
+  "lf-2023": {
+   "label": "Legge fondamentale 13.5.2023",
+   "kind": "law",
+   "title": "Legge fondamentale dello Stato della Città del Vaticano (Francesco, 13 maggio 2023)",
+   "enacted": "2023-05-13",
+   "published": null,
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=248:legge-fondamentale-dello-s-c-v-del-13-maggio-2023",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  },
+  "mp-2025-11-19": {
+   "label": "Motu proprio 19.11.2025",
+   "kind": "law",
+   "title": "Lettera apostolica in forma di motu proprio sulla composizione e presidenza della Pontificia Commissione per lo Stato della Città del Vaticano (Leone XIV, 19 novembre 2025)",
+   "enacted": "2025-11-19",
+   "published": "2025-11-21",
+   "url": "https://vaticanstate.va/it/component/content/article/lettera-apostolica-in-forma-di-motu-proprio-del-sommo-pontefice-leone-xiv-sulla-composizione-e-presidenza-della-pontificia-c.html?catid=39&Itemid=312",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  },
+  "lf-2026": {
+   "label": "Legge fondamentale 31.7.2026",
+   "kind": "law",
+   "title": "Legge fondamentale dello Stato della Città del Vaticano (Leone XIV, 31 luglio 2026)",
+   "enacted": "2026-07-31",
+   "published": "2026-07-31",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=315:legge-fondamentale-dello-stato-della-citta-del-vaticano-del-31-luglio-2026",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  },
+  "lxxi-2008": {
+   "label": "Legge n. LXXI (2008)",
+   "kind": "law",
+   "title": "N. LXXI - Legge sulle fonti del diritto (1 ottobre 2008)",
+   "enacted": "2008-10-01",
+   "published": null,
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10",
+   "temporary_until": null,
+   "restores": null,
+   "note": null
+  }
+ },
+ "acts": [
+  {
+   "slug": "legge-fondamentale",
+   "short": "LF",
+   "title": "Legge fondamentale dello Stato della Città del Vaticano",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html",
+   "first_law": "lf-2000",
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2001-02-22",
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=5:la-nuova-legge-fondamentale-dello-s-c-v",
+     "sha256": "7fd67f3bb346ac941d832699bb6801347c8fe0c578f57f1cfbf515d6ba94bcfa",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "# Art. 1\n1. Il Sommo Pontefice, Sovrano dello Stato della Città del Vaticano, ha la pienezza dei poteri legislativo, esecutivo e giudiziario.\n2. Durante il periodo di Sede vacante, gli stessi poteri appartengono al Collegio dei Cardinali, il quale tuttavia potrà emanare disposizioni legislative solo in caso di urgenza e con efficacia limitata alla durata della vacanza, salvo che esse siano confermate dal Sommo Pontefice successivamente eletto a norma della legge canonica.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "# Art. 2\nLa rappresentanza dello Stato nei rapporti con gli Stati esteri e con gli altri soggetti di diritto internazionale, per le relazioni diplomatiche e per la conclusione dei trattati, è riservata al Sommo Pontefice, che la esercita per mezzo della Segreteria di Stato.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "# Art. 3\n1. Il potere legislativo, salvi i casi che il Sommo Pontefice intenda riservare a Se stesso o ad altre istanze, è esercitato da una Commissione composta da un Cardinale Presidente e da altri Cardinali, tutti nominati dal Sommo Pontefice per un quinquennio.\n2. In caso di assenza o di impedimento del Presidente, la Commissione è presieduta dal primo dei Cardinali Membri.\n3. Le adunanze della Commissione sono convocate e presiedute dal Presidente e vi partecipano, con voto consultivo, il Segretario Generale ed il Vice Segretario Generale.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "# Art. 4\n1. La Commissione esercita il suo potere entro i limiti della Legge sulle fonti del diritto, secondo le disposizioni di seguito indicate ed il proprio Regolamento.\n2. Per l'elaborazione dei progetti di legge, la Commissione si avvale della collaborazione dei Consiglieri dello Stato, di altri esperti nonché degli Organismi della Santa Sede e dello Stato che possano esserne interessati.\n3. I progetti di legge sono previamente sottoposti, per il tramite della Segreteria di Stato, alla considerazione del Sommo Pontefice.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "# Art. 5\n1. Il potere esecutivo è esercitato dal Presidente della Commissione, in conformità con la presente Legge e con le altre disposizioni normative vigenti.\n2. Nell'esercizio di tale potere il Presidente è coadiuvato dal Segretario Generale e dal Vice Segretario Generale.\n3. Le questioni di maggiore importanza sono sottoposte dal Presidente all'esame della Commissione.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "# Art. 6\nNelle materie di maggiore importanza si procede di concerto con la Segreteria di Stato.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "# Art. 7\n1. Il Presidente della Commissione può emanare Ordinanze, in attuazione di norme legislative e regolamentari.\n2. In casi di urgente necessità, egli può emanare disposizioni aventi forza di legge, le quali tuttavia perdono efficacia se non sono confermate dalla Commissione entro novanta giorni.\n3. Il potere di emanare Regolamenti generali resta riservato alla Commissione.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "# Art. 8\n1. Fermo restando quanto disposto agli artt. 1 e 2, il Presidente della Commissione rappresenta lo Stato.\n2. Egli può delegare la rappresentanza legale al Segretario Generale per l'ordinaria attività amministrativa.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "# Art. 9\n1. Il Segretario Generale coadiuva nelle sue funzioni il Presidente della Commissione. Secondo le modalità indicate nelle Leggi e sotto le direttive del Presidente della Commissione, egli:\na) sovraintende all'applicazione delle Leggi e delle altre disposizioni normative ed all'attuazione delle decisioni e delle direttive del Presidente della Commissione;\nb) sovraintende all'attività amministrativa del Governatorato e coordina le funzioni delle varie Direzioni.\n2. In caso di assenza o impedimento sostituisce il Presidente della Commissione, eccetto per quanto disposto all'art. 7, n. 2.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "# Art. 10\n1. Il Vice Segretario Generale, d'intesa con il Segretario Generale, sovraintende all'attività di preparazione e redazione degli atti e della corrispondenza e svolge le altre funzioni a lui attribuite.\n2. Egli sostituisce il Segretario Generale in caso di sua assenza o impedimento.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "# Art. 11\n1. Per la predisposizione e l'esame dei bilanci e per altri affari di ordine generale riguardanti il personale e l'attività dello Stato, il Presidente della Commissione è assistito dal Consiglio dei Direttori, da lui periodicamente convocato e da lui presieduto.\n2. Ad esso prendono parte anche il Segretario Generale ed il Vice Segretario Generale.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "# Art. 12\nI bilanci preventivo e consuntivo dello Stato, dopo l'approvazione da parte della Commissione, sono sottoposti al Sommo Pontefice per il tramite della Segreteria di Stato.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "# Art. 13\n1. Il Consigliere Generale ed i Consiglieri dello Stato, nominati dal Sommo Pontefice per un quinquennio, prestano la loro assistenza nell'elaborazione delle Leggi e in altre materie di particolare importanza.\n2. I Consiglieri possono essere consultati sia singolarmente che collegialmente.\n3. Il Consigliere Generale presiede le riunioni dei Consiglieri; esercita altresì funzioni di coordinamento e di rappresentanza dello Stato, secondo le indicazioni del Presidente della Commissione.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "# Art. 14\nIl Presidente della Commissione, oltre ad avvalersi del Corpo di Vigilanza, ai fini della sicurezza e della polizia può richiedere l'assistenza della Guardia Svizzera Pontificia.\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "# Art. 15\n1. Il potere giudiziario è esercitato, a nome del Sommo Pontefice, dagli organi costituiti secondo l'ordinamento giudiziario dello Stato.\n2. La competenza dei singoli organi è regolata dalla legge.\n3. Gli atti giurisdizionali debbono essere compiuti entro il territorio dello Stato.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "# Art. 16\nIn qualunque causa civile o penale ed in qualsiasi stadio della medesima, il Sommo Pontefice può deferirne l'istruttoria e la decisione ad una particolare istanza, anche con facoltà di pronunciare secondo equità e con esclusione di qualsiasi ulteriore gravame.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "# Art. 17\n1. Fatto salvo quanto disposto nell'articolo seguente, chiunque ritenga leso un proprio diritto o interesse legittimo da un atto amministrativo può proporre ricorso gerarchico ovvero adire l'autorità giudiziaria competente.\n2. Il ricorso gerarchico preclude, nella stessa materia, l'azione giudiziaria, tranne che il Sommo Pontefice non l'autorizzi nel singolo caso.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "# Art. 18\n1. Le controversie relative al rapporto di lavoro tra i dipendenti dello Stato e l'Amministrazione sono di competenza dell'Ufficio del Lavoro della Sede Apostolica, a norma del proprio Statuto.\n2. I ricorsi avverso i provvedimenti disciplinari disposti nei confronti dei dipendenti dello Stato possono essere proposti dinanzi alla Corte di Appello, secondo le norme proprie.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "# Art. 19\nLa facoltà di concedere amnistie, indulti, condoni e grazie è riservata al Sommo Pontefice.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "# Art. 20\n1. La bandiera dello Stato della Città del Vaticano è costituita da due campi divisi verticalmente, uno giallo aderente all'asta e l'altro bianco, e porta in quest'ultimo la tiara con le chiavi, il tutto secondo il modello, che forma l'allegato A della presente Legge.\n2. Lo stemma è costituito dalla tiara con le chiavi, secondo il modello che forma l'allegato B della presente Legge.\n3. Il sigillo dello Stato porta nel centro la tiara con le chiavi ed intorno le parole \"Stato della Città del Vaticano\", secondo il modello che forma l'allegato C della presente Legge.\n"
+      },
+      "disposizione-finale": {
+       "label": "Disposizione finale",
+       "kind": "final",
+       "text": "# Disposizione finale\nLa presente Legge fondamentale sostituisce integralmente la Legge fondamentale della Città del Vaticano, 7 giugno 1929, n. I. Parimenti sono abrogate tutte le norme vigenti nello Stato in contrasto con la presente Legge.\nEssa entrerà in vigore il 22 febbraio 2001, Festa della Cattedra di San Pietro Apostolo.\n"
+      },
+      "formula-finale": {
+       "label": "Formula di promulgazione",
+       "kind": "final",
+       "text": "# Formula di promulgazione\nComandiamo che l'originale della presente Legge, munito del sigillo dello Stato, sia depositato nell'Archivio delle Leggi dello Stato della Città del Vaticano, e che il testo corrispondente sia pubblicato nel Supplemento degli Acta Apostolicae Sedis mandando a chiunque spetti di osservarla e di farla osservare.\nData dal Nostro Palazzo Apostolico Vaticano il ventisei novembre duemila, Solennità di Nostro Signore Gesù Cristo, Re dell'Universo, anno XXIII del Nostro Pontificato.\nIOANNES PAULUS II, PP\n"
+      }
+     },
+     "credits": {},
+     "note": "Legge fondamentale of 26 November 2000, in force 22 February 2001 by its own final clause. The publisher's copy does not reproduce the preamble verbatim, so this version has no preamble."
+    },
+    {
+     "from": "2023-06-07",
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=248:legge-fondamentale-dello-s-c-v-del-13-maggio-2023",
+     "sha256": "57486eeebc29828145c1bfbfc1e286275e4dbde2446787088ed0819e7a2c7023",
+     "units": {
+      "titolo-01": {
+       "label": "Titolo I",
+       "kind": "heading",
+       "text": "# Titolo I\nDisposizioni generali\n"
+      },
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "# Art. 1\nIl Sommo Pontefice, Sovrano dello Stato della Città del Vaticano, ha la pienezza della potestà di governo, che comprende il potere legislativo, esecutivo e giudiziario.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "# Art. 2\n1. Lo Stato della Città del Vaticano assicura l'assoluta e visibile indipendenza della Santa Sede per l'adempimento della Sua alta missione nel mondo e ne garantisce l'indiscutibile sovranità anche nel campo internazionale.\n2. Lo Stato e il suo ordinamento sono distinti dalla Curia Romana e dalle altre Istituzioni della Santa Sede.\n3. Le funzioni proprie dell'ordinamento statale sono esercitate dal Governatorato dello Stato della Città del Vaticano in conformità alle leggi e alle altre disposizioni normative.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "# Art. 3\n1. Durante il periodo di Sede Vacante il Collegio dei Cardinali assicura la continuità delle funzioni dello Stato e ne esercita i poteri.\n2. Il Collegio, tuttavia, può emanare disposizioni legislative solo in caso di necessità e urgenza e con efficacia limitata alla durata della vacanza, salvo che esse siano successivamente confermate dal Sommo Pontefice.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "# Art. 4\n1. Lo Stato esercita la sovranità e ogni potere conseguente sul territorio come stabilito dal Trattato lateranense dell'11 febbraio 1929.\n2. I suoi organi esercitano parimenti i poteri a essi attribuiti, oltre che sul territorio dello Stato, anche negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede, in cui vigono le garanzie e le immunità previste dal diritto internazionale.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "# Art. 5\nFanno parte della comunità dello Stato i cittadini, i residenti e quanti, ad altro titolo e con diverse funzioni e responsabilità, svolgono stabilmente il loro servizio, con spirito ecclesiale, per lo Stato o per la Santa Sede.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "# Art. 6\n1. La rappresentanza dello Stato della Città del Vaticano nei rapporti con gli Stati e con altri soggetti di diritto internazionale, nelle relazioni diplomatiche e per la conclusione dei trattati, sono riservate al Sommo Pontefice che le esercita mediante la Segreteria di Stato.\n2. Negli altri casi la rappresentanza è esercitata dal Presidente del Governatorato.\n3. Il Governatorato partecipa alle Istituzioni internazionali delle quali la Santa Sede è membro in nome e per conto dello Stato.\n4. Il Governatorato, attesa la condizione di enclave dello Stato, mantiene rapporti e sottoscrive, con organismi ed enti esteri, atti necessari per assicurare gli approvvigionamenti, i collegamenti, le dotazioni e i servizi pubblici, avendo a riferimento l'art. 6 del Trattato lateranense.\n"
+      },
+      "titolo-02": {
+       "label": "Titolo II",
+       "kind": "heading",
+       "text": "# Titolo II\nFunzione legislativa\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "# Art. 7\nLa funzione legislativa, salvi i casi che il Sommo Pontefice intenda riservare a Sé stesso, è esercitata dalla Pontificia Commissione per lo Stato della Città del Vaticano.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "# Art. 8\n1. La Pontificia Commissione è composta da Cardinali, tra cui il Presidente, e da altri membri, nominati dal Sommo Pontefice per un quinquennio.\n2. In caso di assenza o impedimento del Presidente, la Pontificia Commissione è presieduta dal primo dei Cardinali Membri con maggiore anzianità di nomina e poi di età.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "# Art. 9\n1. La Pontificia Commissione esercita i poteri che le sono attribuiti in conformità alle leggi e alle altre disposizioni normative.\n2. Le adunanze della Pontificia Commissione sono convocate e presiedute dal Presidente. Partecipano, con funzioni consultive, il Segretario Generale e il Vice Segretario Generale del Governatorato. Possono essere consultati componenti di organismi dello Stato, di Istituzioni della Curia Romana o altri esperti.\n3. La Pontificia Commissione disciplina, con apposito regolamento, il proprio funzionamento.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "# Art. 10\n1. La Pontificia Commissione approva le leggi e le altre disposizioni normative. Per l'elaborazione dei relativi progetti, si avvale della collaborazione dei Consiglieri dello Stato, dell'Ufficio Giuridico del Governatorato o di altri esperti.\n2. Prima della promulgazione, le leggi approvate dalla Pontificia Commissione sono sottoposte alla diretta considerazione del Sommo Pontefice.\n3. L'interpretazione autentica delle leggi dello Stato è riservata alla Pontificia Commissione.\n4. La Pontificia Commissione emana regolamenti generali nelle materie che non sono riservate alla legge o per la disciplina di materie per quali la legge rinvia a regolamenti fissandone i principi.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "# Art. 11\n1. Il Presidente della Pontificia Commissione può emanare ordinanze, decreti e altre disposizioni, in attuazione di norme legislative o regolamentari.\n2. In casi di urgente necessità, il Presidente può emanare decreti aventi forza di legge i quali, tuttavia, perdono efficacia se non sono convertiti in legge dalla Pontificia Commissione entro novanta giorni dalla pubblicazione.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "# Art. 12\n1. Il Consigliere Generale e i Consiglieri dello Stato sono nominati dal Sommo Pontefice per un quinquennio e costituiscono un Collegio. Svolgono, anche individualmente, funzioni consultive nell'elaborazione delle leggi, degli altri atti normativi e funzioni esecutive.\n2. Il Consigliere Generale organizza l'attività e presiede le riunioni del Collegio dei Consiglieri dello Stato.\n3. Al Collegio può essere sottoposta dal Presidente del Governatorato, anche su istanza di un'istituzione della Santa Sede, la richiesta di parere per un dubbio di diritto, tale da non richiedere un'interpretazione autentica. Tali pareri possono assumere la forma di dichiarazioni o note esplicative.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "# Art. 13\n1. La Pontificia Commissione, in conformità alle regole di contabilità, delibera annualmente, con atti aventi forza di legge, il bilancio preventivo e il consuntivo; inoltre delibera il piano finanziario triennale. Sottopone questi atti direttamente all'approvazione del Sommo Pontefice.\n2. Il bilancio assicura l'equilibrio delle entrate e delle uscite e si ispira ai principi di chiarezza, di trasparenza e di correttezza.\n3. In caso di necessità, il Presidente può disporre con decreto spostamenti di risorse tra i capitoli di bilancio, mantenendo l'equilibrio dei saldi e tenendo conto della sostenibilità nel tempo.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "# Art. 14\nIl bilancio è sottoposto al controllo e alla verifica contabile di un Collegio, composto da tre membri, nominati per un triennio dalla Pontificia Commissione, alla quale riferisce.\n"
+      },
+      "titolo-03": {
+       "label": "Titolo III",
+       "kind": "heading",
+       "text": "# Titolo III\nFunzione esecutiva\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "# Art. 15\n1. Il Presidente della Pontificia Commissione è il Presidente del Governatorato ed esercita la funzione esecutiva in conformità alle leggi e alle altre disposizioni normative.\n2. Il Presidente si avvale del Governatorato, i cui organi di governo e organismi concorrono all'esercizio della funzione esecutiva dello Stato, che si esercita negli ambiti previsti dall'art. 4.\n3. Le questioni di maggiore importanza sono sottoposte dal Presidente, a seconda del loro rilievo, al Sommo Pontefice o all'esame della Pontificia Commissione.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "# Art. 16\n1. Il Segretario Generale coadiuva il Presidente nell'esercizio delle sue funzioni.\n2. In caso di assenza o impedimento sostituisce il Presidente, eccetto per quanto riguarda l'emanazione di disposizioni aventi forza di legge e l'adozione di altri atti normativi.\n3. Il Segretario Generale rappresenta lo Stato quando è previsto da leggi o regolamenti o per delega del Presidente. Sovraintende all'esecuzione delle leggi e all'adozione di altri atti normativi e attua le decisioni e le direttive del Presidente.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "# Art. 17\nIl Vice Segretario Generale collabora con il Presidente e il Segretario Generale, svolge le altre funzioni a lui attribuite, sovraintende alla preparazione e alla redazione degli atti e della corrispondenza. Sostituisce il Segretario Generale in caso di sua assenza o impedimento o per delega dello stesso.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "# Art. 18\n1. È competenza propria ed esclusiva dello Stato assicurare le dotazioni, le infrastrutture, i servizi e le forniture, avendo a riferimento l'art. 6 del Trattato lateranense, per le necessità proprie e della Santa Sede.\n2. Il Governatorato provvede alla loro acquisizione, distribuzione ed erogazione alle istituzioni dello Stato e della Santa Sede.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "# Art. 19\n1. L'organizzazione e le funzioni del Governatorato sono disciplinate dalla Legge sul Governo e da regolamenti adottati dalla Pontificia Commissione o dal suo Presidente.\n2. Il Governatorato, con la propria struttura amministrativa, provvede, come compito proprio ed esclusivo, che esercita negli ambiti previsti all'art. 4:\na) alla sicurezza, all'ordine pubblico e alla protezione civile;\nb) alla tutela della salute, della sanità, dell'igiene pubblica, dell'ambiente e dell'ecologia;\nc) alle attività economiche, ai servizi postali, filatelici e doganali;\nd) ad ogni infrastruttura di connettività e di rete, all'attività edilizia, agli impianti tecnici, idraulici, elettrici e alla loro vigilanza e manutenzione;\ne) alla conservazione, alla valorizzazione e alla fruizione del complesso artistico dei Musei Vaticani, nonché alla sovraintendenza sui beni dell'intero patrimonio artistico, storico, archeologico ed etnografico;\nf) ad ogni altra funzione prevista dalla legge o da altre disposizioni normative.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "# Art. 20\nIl Presidente del Governatorato, oltre ad avvalersi del Corpo della Gendarmeria, ai fini della sicurezza e della polizia, può richiedere l'assistenza della Guardia Svizzera Pontificia.\n"
+      },
+      "titolo-04": {
+       "label": "Titolo IV",
+       "kind": "heading",
+       "text": "# Titolo IV\nFunzione giudiziaria\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "# Art. 21\n1. La funzione giudiziaria è esercitata, in nome del Sommo Pontefice, dagli organi costituiti secondo l'ordinamento giudiziario e dagli altri organi a cui la legge conferisce la competenza per specifiche materie.\n2. Il Sommo Pontefice, in qualunque causa civile o penale e in qualsiasi stato della medesima, può deferirne l'istruttoria e la decisione ad una particolare istanza con esclusione di ogni altro gravame.\n3. Nell'applicare la legge, il giudice si ispira al principio di equità, opera per il ristabilimento della giustizia e favorisce la conciliazione tra le parti. Nelle cause penali, inoltre, il giudice commina la pena in funzione della riabilitazione del colpevole, del suo reinserimento e del ripristino dell'ordine giuridico violato.\n4. In ogni processo è garantita l'imparzialità del giudice, il diritto di difesa e il contraddittorio tra le parti.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "# Art. 22\nÈ riservata al Sommo Pontefice la facoltà di concedere l'amnistia, l'indulto, il condono, la grazia e di commutare le pene.\n"
+      },
+      "titolo-05": {
+       "label": "Titolo V",
+       "kind": "heading",
+       "text": "# Titolo V\nDisposizioni finali\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "# Art. 23\n1. La bandiera dello Stato della Città del Vaticano è costituita da due campi divisi verticalmente, uno giallo aderente all'asta e l'altro bianco, e porta in quest'ultimo la tiara con le chiavi, il tutto secondo il modello che forma l'allegato A della presente Legge.\n2. Lo stemma è costituito dalla tiara con le chiavi secondo il modello che forma l'allegato B della presente Legge.\n3. Il sigillo dello Stato porta nel centro la tiara con le chiavi e intorno le parole \"Stato della Città del Vaticano\" secondo il modello che forma l'allegato C della presente Legge.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "# Art. 24\n1. La presente Legge fondamentale dello Stato della Città del Vaticano sostituisce integralmente la precedente del 26 novembre 2000.\n2. Parimenti sono abrogate tutte le leggi, le disposizioni, i privilegi e le consuetudini, anche degni di speciale e singolare menzione, in contrasto con la presente Legge.\n3. Essa entra in vigore il 7 giugno 2023.\n"
+      },
+      "preambolo": {
+       "label": "Preambolo",
+       "kind": "preamble",
+       "text": "# Preambolo\nChiamato ad esercitare in forza del munus petrino poteri sovrani anche sullo Stato della Città del Vaticano che, il Trattato lateranense ha posto come strumento per assicurare alla Santa Sede l'assoluta e visibile indipendenza e per garantirle la sovranità anche nel campo internazionale, ho ritenuto necessario emanare una nuova Legge Fondamentale per rispondere alle necessità dei nostri giorni.\nPredisposta e formulata per dare costitutiva fisionomia allo Stato, ai suoi poteri e all'esercizio delle derivanti funzioni, questa Legge – che succede a quella del 1929 e sostituisce quella del 2000 – assume e completa gli aggiornamenti normativi sin qui emanati e i mutati profili istituzionali resi operativi nello Stato anzitutto, con la riforma della Legge sulle fonti del diritto, della Legge sul Governo dello Stato e della Legge sull'ordinamento giudiziario.\nA queste disposizioni è affidato il compito di rendere operative quelle situazioni derivanti dagli impegni internazionali assunti da questa Sede Apostolica anche per lo Stato, con le rinnovate esigenze che tale aspetto specifico richiede.\nLa presente Legge, fondamento e riferimento di ogni altra normativa e regolazione nello Stato, conferma la singolare peculiarità e l'autonomia dell'ordinamento giuridico vaticano che, distinto da quello della Curia Romana, si caratterizza per riconoscere il diritto canonico quale prima fonte normativa e insostituibile criterio interpretativo. Si vuole così garantire agli atti e alle attività che, dello Stato sono propri, quella necessaria autonomia richiesta dalle funzioni statali. A questo compito è preposto il Governatorato dello Stato della Città del Vaticano che con la propria struttura organizzativa concorre alla missione propria dello Stato ed è al servizio del Successore di Pietro, a cui direttamente risponde.\nAgli Organi di governo e a quanti, con diverse funzioni di responsabilità e animati da vero spirito ecclesiale, svolgono stabilmente il loro servizio per lo Stato, questo strumento conferisce l'esercizio di ogni potere conseguente sul territorio, definito dal Trattato lateranense, e negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede e sono vigenti, in forza del diritto internazionale, garanzie e immunità personali e funzionali.\nDi conseguenza, con la pienezza della sovrana autorità e certa scienza, stabilisco e ordino quanto appresso, da osservarsi come Legge Fondamentale dello Stato:\n"
+      },
+      "formula-finale": {
+       "label": "Formula di promulgazione",
+       "kind": "final",
+       "text": "# Formula di promulgazione\nComando che l'originale della presente legge, munita del sigillo dello Stato, sia depositata nell'Archivio delle leggi dello Stato della Città del Vaticano e che il testo corrispondente sia pubblicato dapprima nel quotidiano L'Osservatore Romano, quindi nel Supplemento degli Acta Apostolicae Sedis, mandandosi a chiunque spetti di osservarla e farla osservare.\nDal Vaticano, 13 maggio 2023 Festa della Beata Maria Vergine di Fatima XI del Nostro Pontificato.\n"
+      }
+     },
+     "credits": {
+      "art-001": [
+       "lf-2023"
+      ],
+      "art-002": [
+       "lf-2023"
+      ],
+      "art-003": [
+       "lf-2023"
+      ],
+      "art-004": [
+       "lf-2023"
+      ],
+      "art-005": [
+       "lf-2023"
+      ],
+      "art-006": [
+       "lf-2023"
+      ],
+      "art-007": [
+       "lf-2023"
+      ],
+      "art-008": [
+       "lf-2023"
+      ],
+      "art-009": [
+       "lf-2023"
+      ],
+      "art-010": [
+       "lf-2023"
+      ],
+      "art-011": [
+       "lf-2023"
+      ],
+      "art-012": [
+       "lf-2023"
+      ],
+      "art-013": [
+       "lf-2023"
+      ],
+      "art-014": [
+       "lf-2023"
+      ],
+      "art-015": [
+       "lf-2023"
+      ],
+      "art-016": [
+       "lf-2023"
+      ],
+      "art-017": [
+       "lf-2023"
+      ],
+      "art-018": [
+       "lf-2023"
+      ],
+      "art-019": [
+       "lf-2023"
+      ],
+      "art-020": [
+       "lf-2023"
+      ],
+      "art-021": [
+       "lf-2023"
+      ],
+      "art-022": [
+       "lf-2023"
+      ],
+      "art-023": [
+       "lf-2023"
+      ],
+      "art-024": [
+       "lf-2023"
+      ],
+      "disposizione-finale": [
+       "lf-2023"
+      ],
+      "formula-finale": [
+       "lf-2023"
+      ],
+      "preambolo": [
+       "lf-2023"
+      ],
+      "titolo-01": [
+       "lf-2023"
+      ],
+      "titolo-02": [
+       "lf-2023"
+      ],
+      "titolo-03": [
+       "lf-2023"
+      ],
+      "titolo-04": [
+       "lf-2023"
+      ],
+      "titolo-05": [
+       "lf-2023"
+      ]
+     },
+     "note": "Legge fondamentale of 13 May 2023 replaces the 2000 law in full (art. 24, n. 1) and enters into force on 7 June 2023 (art. 24, n. 3)."
+    },
+    {
+     "from": "2025-11-21",
+     "source_url": "https://vaticanstate.va/it/component/content/article/lettera-apostolica-in-forma-di-motu-proprio-del-sommo-pontefice-leone-xiv-sulla-composizione-e-presidenza-della-pontificia-c.html?catid=39&Itemid=312",
+     "sha256": "e6831e53b2ebb52f7487cb40a27572d686ada39380b62f7781a78aa359bf4199",
+     "units": {
+      "titolo-01": {
+       "label": "Titolo I",
+       "kind": "heading",
+       "text": "# Titolo I\nDisposizioni generali\n"
+      },
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "# Art. 1\nIl Sommo Pontefice, Sovrano dello Stato della Città del Vaticano, ha la pienezza della potestà di governo, che comprende il potere legislativo, esecutivo e giudiziario.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "# Art. 2\n1. Lo Stato della Città del Vaticano assicura l'assoluta e visibile indipendenza della Santa Sede per l'adempimento della Sua alta missione nel mondo e ne garantisce l'indiscutibile sovranità anche nel campo internazionale.\n2. Lo Stato e il suo ordinamento sono distinti dalla Curia Romana e dalle altre Istituzioni della Santa Sede.\n3. Le funzioni proprie dell'ordinamento statale sono esercitate dal Governatorato dello Stato della Città del Vaticano in conformità alle leggi e alle altre disposizioni normative.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "# Art. 3\n1. Durante il periodo di Sede Vacante il Collegio dei Cardinali assicura la continuità delle funzioni dello Stato e ne esercita i poteri.\n2. Il Collegio, tuttavia, può emanare disposizioni legislative solo in caso di necessità e urgenza e con efficacia limitata alla durata della vacanza, salvo che esse siano successivamente confermate dal Sommo Pontefice.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "# Art. 4\n1. Lo Stato esercita la sovranità e ogni potere conseguente sul territorio come stabilito dal Trattato lateranense dell'11 febbraio 1929.\n2. I suoi organi esercitano parimenti i poteri a essi attribuiti, oltre che sul territorio dello Stato, anche negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede, in cui vigono le garanzie e le immunità previste dal diritto internazionale.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "# Art. 5\nFanno parte della comunità dello Stato i cittadini, i residenti e quanti, ad altro titolo e con diverse funzioni e responsabilità, svolgono stabilmente il loro servizio, con spirito ecclesiale, per lo Stato o per la Santa Sede.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "# Art. 6\n1. La rappresentanza dello Stato della Città del Vaticano nei rapporti con gli Stati e con altri soggetti di diritto internazionale, nelle relazioni diplomatiche e per la conclusione dei trattati, sono riservate al Sommo Pontefice che le esercita mediante la Segreteria di Stato.\n2. Negli altri casi la rappresentanza è esercitata dal Presidente del Governatorato.\n3. Il Governatorato partecipa alle Istituzioni internazionali delle quali la Santa Sede è membro in nome e per conto dello Stato.\n4. Il Governatorato, attesa la condizione di enclave dello Stato, mantiene rapporti e sottoscrive, con organismi ed enti esteri, atti necessari per assicurare gli approvvigionamenti, i collegamenti, le dotazioni e i servizi pubblici, avendo a riferimento l'art. 6 del Trattato lateranense.\n"
+      },
+      "titolo-02": {
+       "label": "Titolo II",
+       "kind": "heading",
+       "text": "# Titolo II\nFunzione legislativa\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "# Art. 7\nLa funzione legislativa, salvi i casi che il Sommo Pontefice intenda riservare a Sé stesso, è esercitata dalla Pontificia Commissione per lo Stato della Città del Vaticano.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "# Art. 8\n1. La Pontificia Commissione per lo Stato della Città del Vaticano è composta da Cardinali e da altri membri, tra cui il Presidente, nominati dal Sommo Pontefice per un quinquennio.\n2. In caso di assenza o impedimento del Presidente, la Pontificia Commissione è presieduta dal primo dei Cardinali Membri con maggiore anzianità di nomina e poi di età.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "# Art. 9\n1. La Pontificia Commissione esercita i poteri che le sono attribuiti in conformità alle leggi e alle altre disposizioni normative.\n2. Le adunanze della Pontificia Commissione sono convocate e presiedute dal Presidente. Partecipano, con funzioni consultive, il Segretario Generale e il Vice Segretario Generale del Governatorato. Possono essere consultati componenti di organismi dello Stato, di Istituzioni della Curia Romana o altri esperti.\n3. La Pontificia Commissione disciplina, con apposito regolamento, il proprio funzionamento.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "# Art. 10\n1. La Pontificia Commissione approva le leggi e le altre disposizioni normative. Per l'elaborazione dei relativi progetti, si avvale della collaborazione dei Consiglieri dello Stato, dell'Ufficio Giuridico del Governatorato o di altri esperti.\n2. Prima della promulgazione, le leggi approvate dalla Pontificia Commissione sono sottoposte alla diretta considerazione del Sommo Pontefice.\n3. L'interpretazione autentica delle leggi dello Stato è riservata alla Pontificia Commissione.\n4. La Pontificia Commissione emana regolamenti generali nelle materie che non sono riservate alla legge o per la disciplina di materie per quali la legge rinvia a regolamenti fissandone i principi.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "# Art. 11\n1. Il Presidente della Pontificia Commissione può emanare ordinanze, decreti e altre disposizioni, in attuazione di norme legislative o regolamentari.\n2. In casi di urgente necessità, il Presidente può emanare decreti aventi forza di legge i quali, tuttavia, perdono efficacia se non sono convertiti in legge dalla Pontificia Commissione entro novanta giorni dalla pubblicazione.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "# Art. 12\n1. Il Consigliere Generale e i Consiglieri dello Stato sono nominati dal Sommo Pontefice per un quinquennio e costituiscono un Collegio. Svolgono, anche individualmente, funzioni consultive nell'elaborazione delle leggi, degli altri atti normativi e funzioni esecutive.\n2. Il Consigliere Generale organizza l'attività e presiede le riunioni del Collegio dei Consiglieri dello Stato.\n3. Al Collegio può essere sottoposta dal Presidente del Governatorato, anche su istanza di un'istituzione della Santa Sede, la richiesta di parere per un dubbio di diritto, tale da non richiedere un'interpretazione autentica. Tali pareri possono assumere la forma di dichiarazioni o note esplicative.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "# Art. 13\n1. La Pontificia Commissione, in conformità alle regole di contabilità, delibera annualmente, con atti aventi forza di legge, il bilancio preventivo e il consuntivo; inoltre delibera il piano finanziario triennale. Sottopone questi atti direttamente all'approvazione del Sommo Pontefice.\n2. Il bilancio assicura l'equilibrio delle entrate e delle uscite e si ispira ai principi di chiarezza, di trasparenza e di correttezza.\n3. In caso di necessità, il Presidente può disporre con decreto spostamenti di risorse tra i capitoli di bilancio, mantenendo l'equilibrio dei saldi e tenendo conto della sostenibilità nel tempo.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "# Art. 14\nIl bilancio è sottoposto al controllo e alla verifica contabile di un Collegio, composto da tre membri, nominati per un triennio dalla Pontificia Commissione, alla quale riferisce.\n"
+      },
+      "titolo-03": {
+       "label": "Titolo III",
+       "kind": "heading",
+       "text": "# Titolo III\nFunzione esecutiva\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "# Art. 15\n1. Il Presidente della Pontificia Commissione è il Presidente del Governatorato ed esercita la funzione esecutiva in conformità alle leggi e alle altre disposizioni normative.\n2. Il Presidente si avvale del Governatorato, i cui organi di governo e organismi concorrono all'esercizio della funzione esecutiva dello Stato, che si esercita negli ambiti previsti dall'art. 4.\n3. Le questioni di maggiore importanza sono sottoposte dal Presidente, a seconda del loro rilievo, al Sommo Pontefice o all'esame della Pontificia Commissione.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "# Art. 16\n1. Il Segretario Generale coadiuva il Presidente nell'esercizio delle sue funzioni.\n2. In caso di assenza o impedimento sostituisce il Presidente, eccetto per quanto riguarda l'emanazione di disposizioni aventi forza di legge e l'adozione di altri atti normativi.\n3. Il Segretario Generale rappresenta lo Stato quando è previsto da leggi o regolamenti o per delega del Presidente. Sovraintende all'esecuzione delle leggi e all'adozione di altri atti normativi e attua le decisioni e le direttive del Presidente.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "# Art. 17\nIl Vice Segretario Generale collabora con il Presidente e il Segretario Generale, svolge le altre funzioni a lui attribuite, sovraintende alla preparazione e alla redazione degli atti e della corrispondenza. Sostituisce il Segretario Generale in caso di sua assenza o impedimento o per delega dello stesso.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "# Art. 18\n1. È competenza propria ed esclusiva dello Stato assicurare le dotazioni, le infrastrutture, i servizi e le forniture, avendo a riferimento l'art. 6 del Trattato lateranense, per le necessità proprie e della Santa Sede.\n2. Il Governatorato provvede alla loro acquisizione, distribuzione ed erogazione alle istituzioni dello Stato e della Santa Sede.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "# Art. 19\n1. L'organizzazione e le funzioni del Governatorato sono disciplinate dalla Legge sul Governo e da regolamenti adottati dalla Pontificia Commissione o dal suo Presidente.\n2. Il Governatorato, con la propria struttura amministrativa, provvede, come compito proprio ed esclusivo, che esercita negli ambiti previsti all'art. 4:\na) alla sicurezza, all'ordine pubblico e alla protezione civile;\nb) alla tutela della salute, della sanità, dell'igiene pubblica, dell'ambiente e dell'ecologia;\nc) alle attività economiche, ai servizi postali, filatelici e doganali;\nd) ad ogni infrastruttura di connettività e di rete, all'attività edilizia, agli impianti tecnici, idraulici, elettrici e alla loro vigilanza e manutenzione;\ne) alla conservazione, alla valorizzazione e alla fruizione del complesso artistico dei Musei Vaticani, nonché alla sovraintendenza sui beni dell'intero patrimonio artistico, storico, archeologico ed etnografico;\nf) ad ogni altra funzione prevista dalla legge o da altre disposizioni normative.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "# Art. 20\nIl Presidente del Governatorato, oltre ad avvalersi del Corpo della Gendarmeria, ai fini della sicurezza e della polizia, può richiedere l'assistenza della Guardia Svizzera Pontificia.\n"
+      },
+      "titolo-04": {
+       "label": "Titolo IV",
+       "kind": "heading",
+       "text": "# Titolo IV\nFunzione giudiziaria\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "# Art. 21\n1. La funzione giudiziaria è esercitata, in nome del Sommo Pontefice, dagli organi costituiti secondo l'ordinamento giudiziario e dagli altri organi a cui la legge conferisce la competenza per specifiche materie.\n2. Il Sommo Pontefice, in qualunque causa civile o penale e in qualsiasi stato della medesima, può deferirne l'istruttoria e la decisione ad una particolare istanza con esclusione di ogni altro gravame.\n3. Nell'applicare la legge, il giudice si ispira al principio di equità, opera per il ristabilimento della giustizia e favorisce la conciliazione tra le parti. Nelle cause penali, inoltre, il giudice commina la pena in funzione della riabilitazione del colpevole, del suo reinserimento e del ripristino dell'ordine giuridico violato.\n4. In ogni processo è garantita l'imparzialità del giudice, il diritto di difesa e il contraddittorio tra le parti.\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "# Art. 22\nÈ riservata al Sommo Pontefice la facoltà di concedere l'amnistia, l'indulto, il condono, la grazia e di commutare le pene.\n"
+      },
+      "titolo-05": {
+       "label": "Titolo V",
+       "kind": "heading",
+       "text": "# Titolo V\nDisposizioni finali\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "# Art. 23\n1. La bandiera dello Stato della Città del Vaticano è costituita da due campi divisi verticalmente, uno giallo aderente all'asta e l'altro bianco, e porta in quest'ultimo la tiara con le chiavi, il tutto secondo il modello che forma l'allegato A della presente Legge.\n2. Lo stemma è costituito dalla tiara con le chiavi secondo il modello che forma l'allegato B della presente Legge.\n3. Il sigillo dello Stato porta nel centro la tiara con le chiavi e intorno le parole \"Stato della Città del Vaticano\" secondo il modello che forma l'allegato C della presente Legge.\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "# Art. 24\n1. La presente Legge fondamentale dello Stato della Città del Vaticano sostituisce integralmente la precedente del 26 novembre 2000.\n2. Parimenti sono abrogate tutte le leggi, le disposizioni, i privilegi e le consuetudini, anche degni di speciale e singolare menzione, in contrasto con la presente Legge.\n3. Essa entra in vigore il 7 giugno 2023.\n"
+      },
+      "preambolo": {
+       "label": "Preambolo",
+       "kind": "preamble",
+       "text": "# Preambolo\nChiamato ad esercitare in forza del munus petrino poteri sovrani anche sullo Stato della Città del Vaticano che, il Trattato lateranense ha posto come strumento per assicurare alla Santa Sede l'assoluta e visibile indipendenza e per garantirle la sovranità anche nel campo internazionale, ho ritenuto necessario emanare una nuova Legge Fondamentale per rispondere alle necessità dei nostri giorni.\nPredisposta e formulata per dare costitutiva fisionomia allo Stato, ai suoi poteri e all'esercizio delle derivanti funzioni, questa Legge – che succede a quella del 1929 e sostituisce quella del 2000 – assume e completa gli aggiornamenti normativi sin qui emanati e i mutati profili istituzionali resi operativi nello Stato anzitutto, con la riforma della Legge sulle fonti del diritto, della Legge sul Governo dello Stato e della Legge sull'ordinamento giudiziario.\nA queste disposizioni è affidato il compito di rendere operative quelle situazioni derivanti dagli impegni internazionali assunti da questa Sede Apostolica anche per lo Stato, con le rinnovate esigenze che tale aspetto specifico richiede.\nLa presente Legge, fondamento e riferimento di ogni altra normativa e regolazione nello Stato, conferma la singolare peculiarità e l'autonomia dell'ordinamento giuridico vaticano che, distinto da quello della Curia Romana, si caratterizza per riconoscere il diritto canonico quale prima fonte normativa e insostituibile criterio interpretativo. Si vuole così garantire agli atti e alle attività che, dello Stato sono propri, quella necessaria autonomia richiesta dalle funzioni statali. A questo compito è preposto il Governatorato dello Stato della Città del Vaticano che con la propria struttura organizzativa concorre alla missione propria dello Stato ed è al servizio del Successore di Pietro, a cui direttamente risponde.\nAgli Organi di governo e a quanti, con diverse funzioni di responsabilità e animati da vero spirito ecclesiale, svolgono stabilmente il loro servizio per lo Stato, questo strumento conferisce l'esercizio di ogni potere conseguente sul territorio, definito dal Trattato lateranense, e negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede e sono vigenti, in forza del diritto internazionale, garanzie e immunità personali e funzionali.\nDi conseguenza, con la pienezza della sovrana autorità e certa scienza, stabilisco e ordino quanto appresso, da osservarsi come Legge Fondamentale dello Stato:\n"
+      },
+      "formula-finale": {
+       "label": "Formula di promulgazione",
+       "kind": "final",
+       "text": "# Formula di promulgazione\nComando che l'originale della presente legge, munita del sigillo dello Stato, sia depositata nell'Archivio delle leggi dello Stato della Città del Vaticano e che il testo corrispondente sia pubblicato dapprima nel quotidiano L'Osservatore Romano, quindi nel Supplemento degli Acta Apostolicae Sedis, mandandosi a chiunque spetti di osservarla e farla osservare.\nDal Vaticano, 13 maggio 2023 Festa della Beata Maria Vergine di Fatima XI del Nostro Pontificato.\n"
+      }
+     },
+     "credits": {
+      "art-008": [
+       "mp-2025-11-19"
+      ]
+     },
+     "note": "Art. 8, n. 1 replaced by the motu proprio of 19 November 2025, in force on the day of its publication in L'Osservatore Romano; the Holy See Press Office made it public on 21 November 2025."
+    },
+    {
+     "from": "2026-07-31",
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/leggi-fondamentali-dello-stato.html?download=315:legge-fondamentale-dello-stato-della-citta-del-vaticano-del-31-luglio-2026",
+     "sha256": "2d584547aa7046337d24c4db0d82229d2315ac0e02493b52e15fe4c00b4a7e0f",
+     "units": {
+      "titolo-01": {
+       "label": "Titolo I",
+       "kind": "heading",
+       "text": "# Titolo I\nDisposizioni generali\n"
+      },
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "# Art. 1\nIl Sommo Pontefice, Sovrano dello Stato della Città del Vaticano, ha la pienezza della potestà di governo, che comprende il potere legislativo, esecutivo e giudiziario.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "# Art. 2\n1. Lo Stato della Città del Vaticano assicura l'assoluta e visibile indipendenza della Santa Sede per l'adempimento della Sua alta missione nel mondo e ne garantisce l'indiscutibile sovranità anche nel campo internazionale.\n2. Lo Stato e il suo ordinamento sono distinti dalla Curia Romana e dalle altre Istituzioni della Santa Sede.\n3. Le funzioni proprie dell'ordinamento statale sono esercitate dal Governatorato dello Stato della Città del Vaticano in conformità alle leggi e alle altre disposizioni normative.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "# Art. 3\n1. Durante il periodo di Sede Vacante il Collegio dei Cardinali assicura la continuità delle funzioni dello Stato e ne esercita i poteri.\n2. Il Collegio, tuttavia, può emanare disposizioni legislative solo in caso di necessità e urgenza e con efficacia limitata alla durata della vacanza, salvo che esse siano successivamente confermate dal Sommo Pontefice.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "# Art. 4\n1. Lo Stato esercita la sovranità e ogni potere conseguente sul territorio come stabilito dal Trattato lateranense dell'11 febbraio 1929.\n2. I suoi organi esercitano parimenti i poteri a essi attribuiti, oltre che sul territorio dello Stato, anche negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede in cui vigono le garanzie e le immunità previste dal diritto internazionale.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "# Art. 5\nFanno parte della comunità dello Stato i cittadini, i residenti e quanti, ad altro titolo e con diverse funzioni e responsabilità, svolgono stabilmente il loro servizio, con spirito ecclesiale, per lo Stato o per la Santa Sede.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "# Art. 6\n1. La rappresentanza dello Stato della Città del Vaticano nei rapporti con gli Stati e con altri soggetti di diritto internazionale, nelle relazioni diplomatiche e per la conclusione dei trattati, è riservata al Sommo Pontefice, che la esercita mediante la Segreteria di Stato.\n2. Negli altri casi la rappresentanza è esercitata dal Presidente del Governatorato.\n3. Il Governatorato partecipa alle Istituzioni internazionali delle quali la Santa Sede è membro in nome e per conto dello Stato.\n4. Il Governatorato, attesa la condizione di enclave dello Stato, mantiene rapporti e sottoscrive, con organismi ed enti esteri, atti necessari per assicurare gli approvvigionamenti, i collegamenti, le dotazioni e i servizi pubblici, avendo a riferimento l'art. 6 del Trattato lateranense.\n"
+      },
+      "titolo-02": {
+       "label": "Titolo II",
+       "kind": "heading",
+       "text": "# Titolo II\nFunzione legislativa\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "# Art. 7\nLa funzione legislativa, salvi i casi che il Sommo Pontefice intenda riservare a Sé stesso o delegare eccezionalmente ad altro organo, è esercitata dalla Pontificia Commissione per lo Stato della Città del Vaticano.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "# Art. 8\n1. La Pontificia Commissione è composta da Cardinali e da altri Membri, tra cui il Presidente, nominati dal Sommo Pontefice per un quinquennio.\n2. In caso di assenza o impedimento del Presidente, la Pontificia Commissione è presieduta dal primo dei Cardinali Membri con maggiore anzianità di nomina e poi di età.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "# Art. 9\n1. La Pontificia Commissione esercita i poteri che le sono attribuiti in conformità alle leggi e alle altre disposizioni normative.\n2. Le adunanze della Pontificia Commissione sono convocate e presiedute dal Presidente. Partecipa, con funzioni consultive, il Segretario Generale e, ove nominato, il Vice Segretario Generale del Governatorato; il Presidente della Pontificia Commissione può invitare a partecipare il Consigliere Generale, con funzioni consultive. Possono essere consultati componenti di organismi dello Stato, di istituzioni della Curia Romana o altri esperti.\n3. La Pontificia Commissione può disciplinare, con apposito regolamento, il proprio funzionamento.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "# Art. 10\n1. La Pontificia Commissione approva le leggi e le altre disposizioni normative. Per l'elaborazione dei relativi progetti, si avvale della collaborazione dei Consiglieri dello Stato, dell'Ufficio Giuridico del Governatorato o di altri esperti.\n2. Prima della promulgazione, le leggi approvate dalla Pontificia Commissione sono sottoposte alla diretta considerazione del Sommo Pontefice.\n3. L'interpretazione autentica delle leggi dello Stato è riservata alla Pontificia Commissione.\n4. La Pontificia Commissione emana regolamenti generali nelle materie che non sono riservate alla legge o per la disciplina di materie per quali la legge rinvia a regolamenti fissandone i principi.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "# Art. 11\n1. Il Presidente della Pontificia Commissione può emanare ordinanze, decreti e altre disposizioni, in attuazione di norme legislative o regolamentari.\n2. In casi di urgente necessità, il Presidente può emanare decreti aventi forza di legge, i quali, tuttavia, perdono efficacia se non sono convertiti in legge dalla Pontificia Commissione entro novanta giorni dalla pubblicazione.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "# Art. 12\n1. Il Consigliere Generale e i Consiglieri dello Stato sono nominati dal Sommo Pontefice per un quinquennio e costituiscono un Collegio. Possono svolgere, anche individualmente, funzioni consultive nell'elaborazione delle leggi e degli altri atti normativi e funzioni esecutive.\n2. Il Consigliere Generale organizza l'attività e presiede le riunioni del Collegio dei Consiglieri dello Stato.\n3. Al Collegio può essere sottoposta, dal Presidente del Governatorato, la richiesta di parere per un dubbio di diritto che non richiede un'interpretazione autentica. Tali pareri possono assumere la forma di dichiarazioni o note esplicative.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "# Art. 13\n1. La Pontificia Commissione, in conformità alle regole di contabilità, delibera annualmente, con atti aventi forza di legge, il bilancio preventivo e il consuntivo; inoltre delibera il piano finanziario triennale. Sottopone questi atti direttamente all'approvazione del Sommo Pontefice.\n2. Il bilancio assicura l'equilibrio delle entrate e delle uscite e si ispira ai principi di chiarezza, di trasparenza e di correttezza.\n3. In caso di necessità, il Presidente può disporre con decreto spostamenti di risorse tra i capitoli di bilancio, mantenendo l'equilibrio dei saldi e tenendo conto della sostenibilità nel tempo.\n"
+      },
+      "art-014": {
+       "label": "Art. 14",
+       "kind": "art",
+       "text": "# Art. 14\nIl bilancio è sottoposto al controllo e alla verifica contabile di un Collegio, composto da tre membri, nominati per un triennio dalla Pontificia Commissione, alla quale riferisce.\n"
+      },
+      "titolo-03": {
+       "label": "Titolo III",
+       "kind": "heading",
+       "text": "# Titolo III\nFunzione esecutiva\n"
+      },
+      "art-015": {
+       "label": "Art. 15",
+       "kind": "art",
+       "text": "# Art. 15\n1. Il Presidente della Pontificia Commissione è il Presidente del Governatorato ed esercita la funzione esecutiva in conformità alle leggi e alle altre disposizioni normative.\n2. Il Presidente si avvale del Governatorato, i cui organi di governo e organismi concorrono all'esercizio della funzione esecutiva dello Stato, che si esercita negli ambiti previsti dall'art.\n4. 3. Le questioni di maggiore importanza sono sottoposte dal Presidente, a seconda del loro rilievo, al Sommo Pontefice o all'esame della Pontificia Commissione.\n"
+      },
+      "art-016": {
+       "label": "Art. 16",
+       "kind": "art",
+       "text": "# Art. 16\n1. Il Presidente del Governatorato assicura il governo dello Stato, sovrintende alla funzione esecutiva e attuativa delle leggi e degli altri atti normativi, impartisce le direttive necessarie per l'organizzazione generale dello Stato, definisce gli indirizzi dell'amministrazione e per la gestione del personale e coordina gli organismi del Governatorato.\n2. Il Presidente, che è coadiuvato dal Segretario Generale e, ove nominato, dal Vice Segretario Generale, può delegare alcune funzioni esecutive proprie al Segretario Generale e al Vice Segretario Generale.\n"
+      },
+      "art-017": {
+       "label": "Art. 17",
+       "kind": "art",
+       "text": "# Art. 17\n1. Il Segretario Generale è nominato dal Sommo Pontefice, su proposta del Presidente del Governatorato, per un quinquennio.\n2. Il Segretario Generale coadiuva il Presidente nell'esercizio delle sue funzioni, attua le direttive e le disposizioni del Presidente e adotta i provvedimenti conseguenti, sostituisce il Presidente in caso di assenza o impedimento eccetto per quanto riguarda l'emanazione di disposizioni aventi forza di legge e l'adozione di altri atti normativi, cura la custodia e appone il sigillo ufficiale dello Stato di cui all'art. 24, comma 3.\n3. Per l'esercizio delle sue funzioni, il Segretario Generale si avvale della Segreteria Generale e, ove nominato, del Vice Segretario Generale.\n"
+      },
+      "art-018": {
+       "label": "Art. 18",
+       "kind": "art",
+       "text": "# Art. 18\nIl Vice Segretario Generale, ove nominato, collabora con il Presidente e il Segretario Generale, svolge le altre funzioni a lui attribuite, sovraintende alla preparazione e alla redazione degli atti e della corrispondenza. Sostituisce il Segretario Generale in caso di sua assenza o impedimento o per delega dello stesso.\n"
+      },
+      "art-019": {
+       "label": "Art. 19",
+       "kind": "art",
+       "text": "# Art. 19\n1. È competenza propria ed esclusiva dello Stato assicurare le dotazioni, le infrastrutture, i servizi e le forniture, avendo a riferimento l'art. 6 del Trattato lateranense, per le necessità proprie e della Santa Sede.\n2. Il Governatorato provvede alla loro acquisizione, distribuzione ed erogazione alle istituzioni dello Stato e della Santa Sede.\n"
+      },
+      "art-020": {
+       "label": "Art. 20",
+       "kind": "art",
+       "text": "# Art. 20\n1. L'organizzazione e le funzioni del Governatorato sono disciplinate dalla Legge sul Governo e da regolamenti adottati dalla Pontificia Commissione o dal suo Presidente.\n2. Il Governatorato, con la propria struttura amministrativa, provvede, come compito proprio ed esclusivo che esercita negli ambiti previsti all'art. 4:\na) alla sicurezza, all'ordine pubblico e alla protezione civile;\nb) alla tutela della salute, della sanità, dell'igiene pubblica, dell'ambiente e dell'ecologia;\nc) alle attività economiche, ai servizi postali, filatelici e doganali;\nd) ad ogni infrastruttura di connettività e di rete, all'attività edilizia, agli impianti tecnici, idraulici, elettrici e alla loro vigilanza e manutenzione;\ne) alla conservazione, alla valorizzazione e alla fruizione del complesso artistico dei Musei Vaticani, nonché alla sovraintendenza sui beni dell'intero patrimonio artistico, storico, archeologico ed etnografico;\nf) ad ogni altra funzione prevista dalla legge o da altre disposizioni normative.\n"
+      },
+      "art-021": {
+       "label": "Art. 21",
+       "kind": "art",
+       "text": "# Art. 21\nIl Presidente del Governatorato, oltre ad avvalersi del Corpo della Gendarmeria, ai fini della sicurezza e della polizia può richiedere l'assistenza della Guardia Svizzera Pontificia.\n"
+      },
+      "titolo-04": {
+       "label": "Titolo IV",
+       "kind": "heading",
+       "text": "# Titolo IV\nFunzione giudiziaria\n"
+      },
+      "art-022": {
+       "label": "Art. 22",
+       "kind": "art",
+       "text": "# Art. 22\n1. La funzione giudiziaria è esercitata, in nome del Sommo Pontefice, per le funzioni giudicanti dal Tribunale, dalla Corte d'Appello e dalla Corte di Cassazione; per le funzioni inquirenti e requirenti, dall'ufficio del Promotore di giustizia. Il regime giuridico degli organi giudiziari è stabilito dalla Legge sull'ordinamento giudiziario.\n2. Il Sommo Pontefice, in qualunque causa civile o penale e in qualsiasi stato della medesima, può deferirne l'istruttoria e la decisione ad una particolare istanza con esclusione di ogni altro gravame.\n3. Nell'applicare la legge, il giudice si ispira al principio di equità, opera per il ristabilimento della giustizia e favorisce la conciliazione tra le parti. Nelle cause penali, inoltre, il giudice commina la pena in funzione della riabilitazione del colpevole, del suo reinserimento e del ripristino dell'ordine giuridico violato.\n4. In ogni processo è garantita l'imparzialità del giudice, il diritto di difesa e il contraddittorio tra le parti.\n"
+      },
+      "art-023": {
+       "label": "Art. 23",
+       "kind": "art",
+       "text": "# Art. 23\nÈ riservata al Sommo Pontefice la facoltà di concedere l'amnistia, l'indulto, il condono, la grazia e di commutare le pene.\n"
+      },
+      "titolo-05": {
+       "label": "Titolo V",
+       "kind": "heading",
+       "text": "# Titolo V\nDisposizioni finali\n"
+      },
+      "art-024": {
+       "label": "Art. 24",
+       "kind": "art",
+       "text": "# Art. 24\n1. La bandiera dello Stato della Città del Vaticano è costituita da due campi divisi verticalmente, uno giallo aderente all'asta e l'altro bianco, e porta in quest'ultimo la tiara con le chiavi, il tutto secondo il modello che forma l'allegato A della presente Legge.\n2. Lo stemma è costituito dalla tiara con le chiavi secondo il modello che forma l'allegato B della presente Legge.\n3. Il sigillo dello Stato porta nel centro la tiara con le chiavi e intorno le parole \"Stato della Città del Vaticano\" secondo il modello che forma l'allegato C della presente Legge.\n"
+      },
+      "art-025": {
+       "label": "Art. 25",
+       "kind": "art",
+       "text": "# Art. 25\n1. La presente Legge fondamentale dello Stato della Città del Vaticano sostituisce integralmente la precedente del 13 maggio 2023.\n2. Parimenti sono abrogate tutte le leggi, le disposizioni, i privilegi e le consuetudini, anche degni di speciale e singolare menzione, in contrasto con la presente Legge.\n3. La Legge fondamentale entra in vigore immediatamente.\n"
+      },
+      "preambolo": {
+       "label": "Preambolo",
+       "kind": "preamble",
+       "text": "# Preambolo\nLa necessità di tener conto di nuove esigenze di governo e di alcune importanti modifiche normative intervenute nel corso degli ultimi anni sollecita l'emanazione di una nuova Legge fondamentale.\nQuesta Legge – che per sua natura serve a dare costitutiva fisionomia allo Stato della Città del Vaticano, posto dal Trattato Lateranense come strumento per assicurare alla Santa Sede l'assoluta e visibile indipendenza e per garantirle la sovranità anche nel campo internazionale – conferma e integra le suddette modifiche.\nPosta a fondamento e riferimento di ogni altra normativa e regolazione nello Stato, la Legge fondamentale riafferma la singolare peculiarità e l'autonomia dell'ordinamento giuridico vaticano e il compito del Governatorato, che concorre alla missione propria dello Stato ed è al servizio del Successore di Pietro, a cui direttamente risponde.\nCome già in passato, agli Organi di governo e a quanti, con diverse funzioni di responsabilità e animati da vero spirito ecclesiale, svolgono stabilmente il loro servizio per lo Stato, è conferito l'esercizio di ogni potere conseguente sul territorio definito dal Trattato lateranense e negli immobili e nelle aree dove operano istituzioni dello Stato o della Santa Sede e sono vigenti, in forza del diritto internazionale, garanzie e immunità personali e funzionali.\nDi conseguenza, con la pienezza della sovrana autorità e certa scienza, stabilisco e ordino quanto appresso, da osservarsi come Legge fondamentale dello Stato:\n"
+      },
+      "formula-finale": {
+       "label": "Formula di promulgazione",
+       "kind": "final",
+       "text": "# Formula di promulgazione\nComando che l'originale della presente Legge, munita del sigillo dello Stato, sia depositata nell'Archivio delle Leggi dello Stato della Città del Vaticano e che il testo corrispondente sia pubblicato dapprima nel quotidiano L'Osservatore Romano, quindi nel Supplemento degli Acta Apostolicae Sedis, mandandosi a chiunque spetti di osservarla e farla osservare.\nDal Vaticano, il 31 luglio 2026, Memoria di S. Ignazio di Loyola, anno II del mio Pontificato.\nLEONE XIV\n"
+      }
+     },
+     "credits": {
+      "art-004": [
+       "lf-2026"
+      ],
+      "art-006": [
+       "lf-2026"
+      ],
+      "art-007": [
+       "lf-2026"
+      ],
+      "art-008": [
+       "lf-2026"
+      ],
+      "art-009": [
+       "lf-2026"
+      ],
+      "art-011": [
+       "lf-2026"
+      ],
+      "art-012": [
+       "lf-2026"
+      ],
+      "art-015": [
+       "lf-2026"
+      ],
+      "art-016": [
+       "lf-2026"
+      ],
+      "art-017": [
+       "lf-2026"
+      ],
+      "art-018": [
+       "lf-2026"
+      ],
+      "art-019": [
+       "lf-2026"
+      ],
+      "art-020": [
+       "lf-2026"
+      ],
+      "art-021": [
+       "lf-2026"
+      ],
+      "art-022": [
+       "lf-2026"
+      ],
+      "art-023": [
+       "lf-2026"
+      ],
+      "art-024": [
+       "lf-2026"
+      ],
+      "art-025": [
+       "lf-2026"
+      ],
+      "formula-finale": [
+       "lf-2026"
+      ],
+      "preambolo": [
+       "lf-2026"
+      ]
+     },
+     "note": "Legge fondamentale of 31 July 2026 replaces the 2023 law in full (art. 25, n. 1) and enters into force immediately (art. 25, n. 3); published that day in the Holy See Press Office Bulletin n. 0611."
+    }
+   ]
+  },
+  {
+   "slug": "legge-fonti-diritto",
+   "short": "LFD",
+   "title": "Legge sulle fonti del diritto (N. LXXI, 1 ottobre 2008)",
+   "url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10",
+   "first_law": "lxxi-2008",
+   "earlier_laws": [],
+   "versions": [
+    {
+     "from": "2009-01-01",
+     "source_url": "https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa/normativa-generale.html?download=10",
+     "sha256": "02f9e191533df1af9b31384d1ac52947740e977660f508e87576581612044b47",
+     "units": {
+      "art-001": {
+       "label": "Art. 1",
+       "kind": "art",
+       "text": "# Art. 1\n(Fonti principali del diritto)\n1. L'ordinamento giuridico vaticano riconosce nell'ordinamento canonico la prima fonte normativa e il primo criterio di riferimento interpretativo.\n2. Sono fonti principali del diritto la legge fondamentale e le leggi promulgate per lo Stato della Città del Vaticano dal Sommo Pontefice, dalla Pontificia Commissione o da altre autorità alle quali Egli abbia conferito l'esercizio del potere legislativo.\n3. Quanto disposto circa le leggi riguarda anche i decreti, i regolamenti e ogni altra disposizione normativa legittimamente emanati.\n4. L'ordinamento giuridico vaticano si conforma alle norme di diritto internazionale generale e a quelle derivanti da trattati e altri accordi di cui la Santa Sede è parte, salvo quanto prescritto al n. 1.\n"
+      },
+      "art-002": {
+       "label": "Art. 2",
+       "kind": "art",
+       "text": "# Art. 2\n(Pubblicazione, entrata in vigore e conservazione)\n1. Le leggi sono pubblicate con la data e con il numero romano progressivo per la durata di ciascun pontificato.\n2. Le leggi entrano in vigore il settimo giorno successivo alla loro pubblicazione, salvo che le leggi stesse stabiliscano un diverso termine.\n3. Le leggi indicate nell'art. 1 n. 2 sono depositate nell'apposito Archivio del Governatorato e pubblicate nello speciale supplemento degli Acta Apostolicae Sedis, eccetto che in casi particolari sia prescritta nella legge medesima una diversa forma di pubblicazione.\n"
+      },
+      "art-003": {
+       "label": "Art. 3",
+       "kind": "art",
+       "text": "# Art. 3\n(Recezione della legislazione italiana)\n1. Nelle materie alle quali non provvedono le fonti indicate nell'art. 1, si osservano, in via suppletiva e previo recepimento da parte della competente autorità vaticana, le leggi e gli altri atti normativi emanati nello Stato Italiano.\n2. Il recepimento è disposto purché i medesimi non risultino contrari ai precetti di diritto divino, né ai principi generali del diritto canonico, nonché alle norme dei Patti Lateranensi e successivi Accordi e sempre che, in relazione allo stato di fatto esistente nella Città del Vaticano, risultino ivi applicabili.\n"
+      },
+      "art-004": {
+       "label": "Art. 4",
+       "kind": "art",
+       "text": "# Art. 4\n(Norme civili)\nSotto le riserve specificate nell'art. 3, si osserva il Codice civile italiano del 16 marzo 1942 con le leggi che lo hanno modificato fino all'entrata in vigore della presente legge, salve le seguenti riserve:\na) la cittadinanza vaticana è regolata da apposita legge vaticana;\nb) la capacità a compiere qualsiasi atto giuridico, ad acquistare e disporre per negozio tra vivi o a causa di morte dei chierici, dei membri degli Istituti di vita consacrata religiosi e delle Società di vita apostolica, che siano cittadini vaticani, è regolata dalla legge canonica;\nc) il matrimonio è regolato esclusivamente dalla legge canonica;\nd) l'adozione è autorizzata dal Sommo Pontefice;\ne) la prescrizione, quanto ai beni ecclesiastici, è regolata dai cann. 197-199 e 1268-1270 del Codex iuris canonici, osservandosi inoltre il can. 76 § 2 del medesimo Codex;\nf) le donazioni ed i lasciti per causa di morte a favore delle pie cause sono regolati dai cann. 1299-1300; 1308-1310 dello stesso Codex;\ng) gli atti di nascita, di matrimonio e di morte sono redatti a norma della legislazione vaticana;\nh) i registri di cittadinanza e di anagrafe sono tenuti presso il Governatorato;\ni) i rapporti di lavoro sono disciplinati da apposita normativa vaticana;\nl) le funzioni di notaro sono esercitate da avvocati della Santa Sede designati dal Presidente del Governatorato. Con le stesse modalità, possono essere designati, per l'esercizio delle funzioni notarili, anche avvocati rotali o civili che abbiano un rapporto organico, o di collaborazione per contratto, con il Governatorato;\nm) le funzioni del conservatore delle ipoteche, agli effetti delle trascrizioni e delle iscrizioni ipotecarie, sono esercitate dalla Direzione dei Servizi Tecnici. La stessa Direzione provvede anche alla tenuta ed aggiornamento del catasto.\n"
+      },
+      "art-005": {
+       "label": "Art. 5",
+       "kind": "art",
+       "text": "# Art. 5\n(Norme di procedura civile)\nSi osserva il Codice di procedura civile vaticano del 1° maggio 1946, con le modificazioni successive, anche per la semplificazione e l'abbreviazione del rito.\n"
+      },
+      "art-006": {
+       "label": "Art. 6",
+       "kind": "art",
+       "text": "# Art. 6\n(Poteri del giudice in materia civile)\nQuando una controversia civile non si possa decidere con il riferimento ad una norma prevista dalle fonti indicate nei precedenti articoli, il giudice decide tenuti presenti i precetti del diritto divino e del diritto naturale, nonché i principi generali dell'ordinamento giuridico vaticano.\n"
+      },
+      "art-007": {
+       "label": "Art. 7",
+       "kind": "art",
+       "text": "# Art. 7\n(Norme penali)\n1. Fino a che non si provveda a nuova definizione del sistema penale, si osserva, sotto le riserve specificate nell'art. 3, il Codice penale italiano recepito con la legge 7 giugno 1929, n. II, come modificato ed integrato dalle leggi vaticane.\n2. La legge prevede i casi nei quali alle pene detentive possono essere sostituite sanzioni alternative e ne indica la natura, avuta presente la funzione educativa della pena.\n3. Le pene pecuniarie espresse in lire italiane, convertite in Euro ai sensi della legge 28 dicembre 2001, n. CCCLXXI, sono determinate con provvedimento amministrativo del Cardinale Presidente del Governatorato dello Stato della Città del Vaticano.\n4. Gli illeciti amministrativi e le relative sanzioni sono regolati da apposita legge vaticana.\n"
+      },
+      "art-008": {
+       "label": "Art. 8",
+       "kind": "art",
+       "text": "# Art. 8\n(Norme di procedura penale)\nSino a che non si provveda a nuova disciplina del rito, si osserva, sotto le riserve specificate nell'art. 3, il Codice di procedura penale italiano recepito con la legge 7 giugno 1929, n. II, come modificato ed integrato dalle leggi vaticane.\n"
+      },
+      "art-009": {
+       "label": "Art. 9",
+       "kind": "art",
+       "text": "# Art. 9\n(Poteri del giudice in materia penale)\nQualora manchi qualunque disposizione penale e tuttavia sia commesso un fatto che offenda i principi della religione o della morale, l'ordine pubblico o la sicurezza delle persone o delle cose, il giudice può richiamarsi ai principi generali della legislazione per comminare pene pecuniarie sino ad Euro tremila, ovvero pene detentive sino a sei mesi, applicando, se del caso, le sanzioni alternative di cui alla legge 14 dicembre 1994, n. CCXXVII.\n"
+      },
+      "art-010": {
+       "label": "Art. 10",
+       "kind": "art",
+       "text": "# Art. 10\n(Rappresentanza, Patrocinio e Giuramento nel giudizio)\n1. La rappresentanza ed il patrocinio nelle diverse sedi di giudizio sono regolati da apposita legge.\n2. Nei giudizi il giuramento delle parti, dei testimoni, dei periti o di altri deve prestarsi nelle forme osservate dinanzi ai tribunali ecclesiastici.\n"
+      },
+      "art-011": {
+       "label": "Art. 11",
+       "kind": "art",
+       "text": "# Art. 11\n(Istruzione scolastica)\n1. Ferma restando la specificità dell'ordinamento vaticano, che si ispira in materia di istruzione e formazione alle indicazioni del Magistero della Chiesa con particolare riguardo alla primaria responsabilità dei genitori, l'istruzione scolastica è obbligatoria, dall'età di sei anni a quella di diciotto compiuti.\n2. All'obbligo si soddisfa con la frequenza di strutture scolastiche legalmente riconosciute, secondo la legislazione dei diversi Stati, salvo che i genitori e tutori dimostrino di poter impartire privatamente l'istruzione a loro cura e spese e con idonei strumenti didattici.\n3. Con provvedimento amministrativo saranno stabilite le modalità applicative.\n"
+      },
+      "art-012": {
+       "label": "Art. 12",
+       "kind": "art",
+       "text": "# Art. 12\n(Norme amministrative)\n1. Salva specifica normativa vaticana e sotto le riserve indicate nell'art. 3, si osservano nella Città del Vaticano:\na) la legislazione dello Stato italiano vigente all'entrata in vigore della presente legge, compresi i regolamenti e i trattati ratificati dall'Italia e le norme di esecuzione dei trattati medesimi, concernente:\n1) i pesi e misure di ogni genere;\n2) i brevetti di invenzione e i marchi e brevetti di fabbrica;\n3) le ferrovie;\n4) le poste;\n5) le telecomunicazioni ed i relativi servizi, sia su rete fissa che mobile, nelle loro diverse componenti;\n6) la trasmissione dell'energia elettrica;\n7) l'aviazione;\n8) gli automobili e la loro circolazione;\n9) la difesa contro le malattie infettive e contagiose.\nb) le leggi dello Stato italiano, con i relativi regolamenti generali e speciali, e con i regolamenti della Regione Lazio, della Provincia e del Comune di Roma, concernenti la polizia edilizia ed urbana e l'igiene e la sanità pubblica.\n2. In caso di necessità dettato da pubblica utilità, per l'acquisizione allo Stato di beni privati, l'utilizzo temporaneo dei medesimi, le prestazioni di opere e servizi, provvede il Presidente del Governatorato con decreto motivato, stabilendo il relativo indennizzo.\n3. Per autorità dello Stato previste nelle leggi e nei regolamenti richiamati in quest'articolo si intende il Presidente del Governatorato, salvo espressa delega da parte del medesimo.\n"
+      },
+      "art-013": {
+       "label": "Art. 13",
+       "kind": "art",
+       "text": "# Art. 13\n(Abrogazione ed entrata in vigore)\nLa presente legge sulle fonti del diritto sostituisce integralmente la legge sulle fonti del diritto 7 giugno 1929, n. II. Essa entrerà in vigore il 1° gennaio 2009.\n"
+      },
+      "preambolo": {
+       "label": "Preambolo",
+       "kind": "preamble",
+       "text": "# Preambolo\nPer procedere ulteriormente nel sistematico adeguamento normativo dell'ordinamento giuridico dello Stato della Città del Vaticano, avviato con la legge fondamentale del 26 novembre 2000, di Nostro Motu Proprio e certa scienza, con la pienezza della Nostra Sovrana autorità, abbiamo ordinato ed ordiniamo quanto appresso, da osservarsi come legge dello Stato:\n"
+      },
+      "formula-finale": {
+       "label": "Formula di promulgazione",
+       "kind": "final",
+       "text": "# Formula di promulgazione\nComandiamo che l'originale della presente legge, munito del sigillo dello Stato, sia depositato nell'Archivio delle leggi dello Stato della Città del Vaticano, e che il testo corrispondente sia pubblicato nel supplemento degli Acta Apostolicae Sedis, mandando a chiunque spetti di osservarla e di farla osservare.\nDato dal Nostro Palazzo Apostolico Vaticano il primo ottobre 2008, anno IV del Nostro Pontificato.\nBENEDETTO PP. XVI\n"
+      }
+     },
+     "credits": {},
+     "note": "As enacted; in force 1 January 2009 by its own art. 13. The publisher lists no amending act and offers no consolidated text."
+    }
+   ]
+  }
+ ],
+ "applies": [],
+ "decisions": [
+  "The Fundamental Law is one act, legge-fondamentale, whose text is replaced in full by the laws of 13 May 2023 and 31 July 2026; each replacement is a version credited to the replacing law, so blame shows which law wrote each article.",
+  "The first Fundamental Law (7 June 1929, n. I) is not on the official site with a text layer, so the history starts with the law of 26 November 2000 in force 22 February 2001.",
+  "No amendment of the 2000 law was found on the official site; the 2023 law was amended once, by the motu proprio of 19 November 2025 (art. 8, n. 1), applied by replaying it on the 2023 text.",
+  "The motu proprio of 19 November 2025 enters into force on the day of its publication in L'Osservatore Romano; the source gives 21 November 2025 as the day the Holy See Press Office made it public, used as the in-force day (the newspaper's issue date was not checked).",
+  "The law of 31 July 2026 enters into force 'immediatamente' and was published in the Holy See Press Office Bulletin n. 0611 of 31 July 2026, so its in-force day is 31 July 2026.",
+  "Every in-force day comes from the law's own clause (2000: 22 February 2001; 2023: 7 June 2023; 2008 LXXI: 1 January 2009; 2013 VIII: 1 September 2013), which overrides the seven-day rule of LXXI art. 2.",
+  "Units are articles (art-NNN), title headings (titolo-NN), the preamble (preambolo), and the closing promulgation formula with date and signature (formula-finale). The 2000 law's unnumbered final clauses (replacement and entry into force) are the unit disposizione-finale.",
+  "The 2000 law's preamble is left out: the publisher's copy paraphrases it inside a press introduction rather than reproducing it.",
+  "Annexes A-C (flag, coat of arms, seal) are left out of every version: they are drawn models, and only the 2023 copy adds short captions to them.",
+  "Title headings are set in sentence case (TITOLO I / DISPOSIZIONI GENERALI and Titolo I / Disposizioni Generali both read 'Titolo I / Disposizioni generali'), so a change of typesetting is not a change of law.",
+  "Typesetting is normalised: NBSP to space, runs of spaces collapsed, curly quotes and apostrophes to straight ones, em dashes to en dashes, PDF line wraps joined into one paragraph per line, page numbers dropped.",
+  "Character errors in the publisher's own PDF text layer are corrected by hand: 2000 law art. 7 'I1 potere' -> 'Il potere'; LXXI 'Ada Apostolicae' -> 'Acta Apostolicae', 'entrata ih vigore' -> 'entrata in vigore', Cyrillic 'а)' -> 'a)' and 'б)' -> '6)' in art. 12.",
+  "Check against vatican.va (verify.py, verification.json): every line of the 2026 law matches the HTML copy; in the 2023 law one line differs, the preamble's 'Vaticano che, il Trattato' (vaticanstate.va PDF, kept) against 'Vaticano, che il Trattato' (vatican.va HTML).",
+  "The Legge sulle fonti del diritto (LXXI) is built as enacted: the official site lists no amending act and gives no consolidated text.",
+  "Legge n. VIII of 2013 (criminal law) sits in corpus.d/50-legge-viii.json, unverified, because later laws amended it (e.g. N. CCCXXIX/CCCXXXVI of 2019 and N. DXXXI) and those changes are not yet replayed."
+ ],
+ "ai_use": [
+  "Claude Code (Claude Opus 5.5, claude-opus-5-5) wrote fetch.py and parse.py, chose the sources and made the decisions above. No model wrote or edited legal text; all law text is parsed by code from the official files. No model runs at build time."
+ ]
+}

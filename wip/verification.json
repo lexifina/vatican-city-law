@@ -1,0 +1,34 @@
+{
+ "check": {
+  "acts": 2,
+  "backwards": 0,
+  "future_dated": 0,
+  "merges": 0,
+  "mismatches": 0,
+  "missing_in_force": 0,
+  "trailer_errors": 0,
+  "versions": 5
+ },
+ "lf-2023": {
+  "mismatched_lines": [
+   {
+    "line": "Chiamato ad esercitare in forza del munus petrino poteri sovrani anche sullo Stato della Citt\u00e0 del Vaticano che, il Trattato lateranense ha posto come strumento",
+    "unit": "preambolo"
+   }
+  ],
+  "source": "https://www.vatican.va/content/francesco/it/motu_proprio/documents/20230513-legge-fond-scv.html",
+  "units": 31
+ },
+ "lf-2026": {
+  "mismatched_lines": [],
+  "source": "https://www.vatican.va/content/leo-xiv/it/motu_proprio/documents/20260731-legge-fondamentale-scv.html",
+  "units": 32
+ },
+ "rebuild": {
+  "commits": 5,
+  "history_tip": "e874dd607e059296ea580a7f68a02c6e0ccde838",
+  "identical": true,
+  "main_identical": true,
+  "tags": 10
+ }
+}

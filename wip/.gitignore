@@ -1,0 +1,4 @@
+.tmp-build/
+.tmp-build2/
+__pycache__/
+*.tmp

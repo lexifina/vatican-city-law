@@ -1,0 +1,19 @@
+The legal texts come from the Governatorato dello Stato della Città del Vaticano:
+
+  Governatorato dello Stato della Città del Vaticano, Legislazione e normativa,
+  https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html, retrieved 2026-10-28.
+
+The site states: "Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati".
+The copies used only for checking come from vatican.va and press.vatican.va (© Dicastero per la Comunicazione -
+Libreria Editrice Vaticana). No open licence is offered for these texts. This repository is private; whether and
+how it may be published is the owner's decision.
+
+Changes made by Lexifina: each law was converted to one Markdown file per provision, one paragraph per line;
+spacing, quotes and dashes were normalised; title headings were set in sentence case; annexes A to C (drawn
+models) were left out; five character errors in the publisher's PDF text layer were corrected (listed in
+REPRODUCE.md); and the texts were arranged as git commits credited to the laws that made each change.
+The wording of the law was not otherwise changed. The Governatorato does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the
+tools) are dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
