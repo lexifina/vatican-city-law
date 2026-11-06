@@ -1,5 +1,7 @@
 # Vatican City: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Vatican City's national law, which global-law reads at `vatican-city/national/acts/`.
+
 The law of Vatican City State as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; `tools/on.py` gives the text in force on any day.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `va/`. The texts are the official files published by the Governatorato dello Stato della Città del Vaticano on [vaticanstate.va](https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html), in Italian, the language of the State's laws.
