@@ -1,100 +1,111 @@
-# Vatican City: law history in git
+# Città del Vaticano: la storia del diritto in git
+
+**Italiano** · [English](README.en.md)
 
 <picture>
-<source media="(prefers-color-scheme: dark)" srcset="data/effort-dark.svg">
-<img alt="Vatican City law in this repository: what it holds, changes by the year they took effect, completeness against the official sources, and the correctness of what is held" src="data/effort-light.svg" width="880">
+<source media="(prefers-color-scheme: dark)" srcset="data/it/effort-dark.svg">
+<img alt="Il diritto dello Stato della Città del Vaticano in questo repository: che cosa contiene, le modifiche per anno di entrata in vigore, la completezza rispetto alle fonti ufficiali e la correttezza dei contenuti" src="data/it/effort-light.svg" width="880">
 </picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Vatican City's national law, which global-law reads at `vatican-city/national/acts/`.
+Fa parte di [lexifina/global-law](https://github.com/lexifina/global-law), un'unica storia git per il diritto di ogni paese: questo è il diritto nazionale della Città del Vaticano, che global-law legge in `vatican-city/national/acts/`.
 
-The law of Vatican City State as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a provision; `tools/on.py` gives the text in force on any day.
+Il diritto dello Stato della Città del Vaticano come storia git: un file per ogni disposizione, un commit per ogni legge nel giorno della sua entrata in vigore e, come autore del commit, la legge che ha introdotto ciascuna modifica. `git blame` indica la legge all'origine di ogni comma; `git log` elenca tutte le modifiche di una disposizione; `tools/on.py` restituisce il testo vigente in qualsiasi giorno.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `va/`. The texts are the official files published by the Governatorato dello Stato della Città del Vaticano on [vaticanstate.va](https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html), in Italian, the language of the State's laws.
+Segue l'impostazione comune di [lexifina/global-law](https://github.com/lexifina/global-law), che lo colloca in `va/`. I testi sono i file ufficiali pubblicati dal Governatorato dello Stato della Città del Vaticano su [vaticanstate.va](https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html), in italiano, la lingua delle leggi dello Stato.
 
-**What is in it now**
+**Contenuto attuale**
 
-| Folder | Act | Versions | History |
+| Cartella | Atto | Versioni | Storia |
 | --- | --- | ---: | --- |
-| `legge-fondamentale/` | Legge fondamentale dello Stato della Città del Vaticano (the Fundamental Law, the State's constitution) | 4 | 2001-02-22 to 2026-07-31 |
-| `legge-fonti-diritto/` | Legge sulle fonti del diritto, N. LXXI of 1 October 2008 (the law on the sources of law) | 1 | 2009-01-01, as enacted |
+| `legge-fondamentale/` | Legge fondamentale dello Stato della Città del Vaticano (la costituzione dello Stato) | 4 | dal 2001-02-22 al 2026-07-31 |
+| `legge-fonti-diritto/` | Legge sulle fonti del diritto, N. LXXI del 1° ottobre 2008 | 1 | 2009-01-01, testo originario |
 
 **Legge fondamentale**
 
-| In force | Author | What happened |
+| In vigore dal | Autore | Che cosa è avvenuto |
 | --- | --- | --- |
-| 2001-02-22 | Legge fondamentale of 26 November 2000 (John Paul II) | Replaced the first Fundamental Law of 7 June 1929 |
-| 2023-06-07 | Legge fondamentale of 13 May 2023 (Francis) | Replaced the 2000 law in full |
-| 2025-11-21 | Motu proprio of 19 November 2025 (Leo XIV) | Art. 8, n. 1: the President of the Pontifical Commission need no longer be a Cardinal |
-| 2026-07-31 | Legge fondamentale of 31 July 2026 (Leo XIV) | Replaced the 2023 law in full, in force immediately |
+| 2001-02-22 | Legge fondamentale del 26 novembre 2000 (Giovanni Paolo II) | Ha sostituito la prima Legge fondamentale del 7 giugno 1929 |
+| 2023-06-07 | Legge fondamentale del 13 maggio 2023 (Francesco) | Ha sostituito integralmente la legge del 2000 |
+| 2025-11-21 | Motu proprio del 19 novembre 2025 (Leone XIV) | Art. 8, n. 1: il Presidente della Pontificia Commissione non deve più essere necessariamente un Cardinale |
+| 2026-07-31 | Legge fondamentale del 31 luglio 2026 (Leone XIV) | Ha sostituito integralmente la legge del 2023, con entrata in vigore immediata |
 
-A Fundamental Law is replaced whole rather than amended, so each new law is one commit that rewrites the act's files; blame then shows, article by article, which law last wrote each paragraph. Each folder's `README.md` lists every provision, how often it changed and when.
+Una Legge fondamentale viene sostituita per intero anziché modificata, quindi ogni nuova legge è un unico commit che riscrive i file dell'atto; blame mostra poi, articolo per articolo, quale legge ha scritto per ultima ciascun comma. Il `README.md` di ogni cartella elenca tutte le disposizioni, quante volte sono cambiate e quando.
 
-## A lawyer's questions as git commands
+## Le domande di un giurista come comandi git
 
-| Question | Command |
+| Domanda | Comando |
 | --- | --- |
-| What did Art. 8 say on 1 January 2025? | `python tools/on.py 2025-01-01 legge-fondamentale art-008` |
-| The same, with raw git (bash) | `git show $(git rev-list -1 --before="2025-01-01T23:59:59Z" main -- legge-fondamentale/art-008.md):legge-fondamentale/art-008.md` |
-| The same, in PowerShell | `$r = git rev-list -1 --before="2025-01-01T23:59:59Z" main -- legge-fondamentale/art-008.md; git show "$($r):legge-fondamentale/art-008.md"` |
-| Which law wrote each line? | `git blame legge-fondamentale/art-008.md` |
-| Every change, word by word | `git log -p --word-diff legge-fondamentale/art-008.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
-| Everything one law changed | `git show law/mp-2025-11-19` (tags `law/<key>` mark each law's commit) |
-| The whole Fundamental Law on a date | `python tools/on.py 2010-06-01 legge-fondamentale` |
-| Which law gave a provision its wording on a date | `python tools/on.py --law 2024-01-01 legge-fondamentale art-008` |
+| Che cosa diceva l'art. 8 il 1° gennaio 2025? | `python tools/on.py 2025-01-01 legge-fondamentale art-008` |
+| Lo stesso, con git puro (bash) | `git show $(git rev-list -1 --before="2025-01-01T23:59:59Z" main -- legge-fondamentale/art-008.md):legge-fondamentale/art-008.md` |
+| Lo stesso, in PowerShell | `$r = git rev-list -1 --before="2025-01-01T23:59:59Z" main -- legge-fondamentale/art-008.md; git show "$($r):legge-fondamentale/art-008.md"` |
+| Quale legge ha scritto ogni riga? | `git blame legge-fondamentale/art-008.md` |
+| Ogni modifica, parola per parola | `git log -p --word-diff legge-fondamentale/art-008.md` |
+| Tutte le leggi registrate, in ordine | `git log --reverse --format="%ad %an" --date=short main` |
+| Tutto ciò che una legge ha modificato | `git show law/mp-2025-11-19` (i tag `law/<key>` contrassegnano il commit di ogni legge) |
+| L'intera Legge fondamentale in una data | `python tools/on.py 2010-06-01 legge-fondamentale` |
+| Quale legge ha dato a una disposizione il testo vigente in una data | `python tools/on.py --law 2024-01-01 legge-fondamentale art-008` |
 
-Article numbers are those of the law in force on the day: the 2000 law has 20 articles, the 2023 law 24 and the 2026 law 25, so `art-008.md` is a different provision under each law. Read it together with the version's tag (`legge-fondamentale/<date>`). After a rebuild, refresh tags with `git fetch --force --tags`: a plain fetch keeps stale tags.
+I numeri degli articoli sono quelli della legge vigente nel giorno considerato: la legge del 2000 ha 20 articoli, quella del 2023 24 e quella del 2026 25, quindi `art-008.md` corrisponde a una disposizione diversa sotto ciascuna legge. Va letto insieme al tag della versione (`legge-fondamentale/<date>`). Dopo una ricostruzione, aggiornare i tag con `git fetch --force --tags`: un semplice fetch conserva i tag obsoleti.
 
-## Dates
+## Date
 
-- Each commit is dated at **noon, Europe/Vatican, on the day the change took effect**. The day is also in the `In-force:` trailer, which the tools read; the day of promulgation (`Enacted:`) and, where known, of publication (`Published:`) are trailers too.
-- **Every day comes from the law itself.** The 2000 law took effect on 22 February 2001 and the 2023 law on 7 June 2023, as their final clauses say; LXXI on 1 January 2009 (its art. 13). The 2026 law took effect "immediatamente" (art. 25, n. 3) and was published that day, 31 July 2026, in the Holy See Press Office Bulletin. The motu proprio of 19 November 2025 took effect on the day of its publication in L'Osservatore Romano; the record uses 21 November 2025, the day the Press Office made it public (the newspaper's issue date was not checked).
-- Without such a clause, a Vatican law takes effect on the seventh day after its publication (LXXI, art. 2, n. 2).
-- `--before="YYYY-MM-DD"` alone uses your clock's time of day, so a law that took effect that day may be missed before noon. Use `T23:59:59Z` as above, or the tool.
+- Ogni commit è datato alle **ore 12, fuso Europe/Vatican, del giorno in cui la modifica è entrata in vigore**. Il giorno figura anche nel trailer `In-force:`, letto dagli strumenti; anche il giorno della promulgazione (`Enacted:`) e, se noto, quello della pubblicazione (`Published:`) sono riportati come trailer.
+- **Ogni data è tratta dalla legge stessa.** La legge del 2000 è entrata in vigore il 22 febbraio 2001 e quella del 2023 il 7 giugno 2023, come dispongono le rispettive clausole finali; la LXXI il 1° gennaio 2009 (art. 13). La legge del 2026 è entrata in vigore "immediatamente" (art. 25, n. 3) ed è stata pubblicata lo stesso giorno, il 31 luglio 2026, nel Bollettino della Sala Stampa della Santa Sede. Il motu proprio del 19 novembre 2025 è entrato in vigore il giorno della sua pubblicazione su L'Osservatore Romano; la registrazione usa il 21 novembre 2025, giorno in cui la Sala Stampa lo ha reso pubblico (la data del numero del quotidiano non è stata verificata).
+- In mancanza di tale clausola, una legge vaticana entra in vigore il settimo giorno successivo alla sua pubblicazione (LXXI, art. 2, n. 2).
+- `--before="YYYY-MM-DD"` da solo usa l'ora del vostro orologio, quindi prima di mezzogiorno una legge entrata in vigore in quel giorno può sfuggire. Usate `T23:59:59Z` come sopra, oppure lo strumento.
 
-## How it is checked
+## Come viene verificato
 
-- Every version is read back from git on the day it took effect and on the day before (`tools/check_repo.py`); both must match `corpus.json`. Results are in `REPRODUCE.md`.
-- **Against a second official copy:** every paragraph of the 2023 and 2026 laws was compared with the HTML text on vatican.va. All of the 2026 law matches; in the 2023 law one comma differs, in the preamble ("Vaticano che, il Trattato" in the Governatorato's PDF, kept here, against "Vaticano, che il Trattato" on vatican.va).
-- **The 2025 change was replayed:** the new art. 8, n. 1 is taken word for word from the motu proprio as the Governatorato printed it and applied to the 2023 text.
-- The repository is rebuilt from the same data a second time and must give identical hashes.
+- Ogni versione viene riletta da git nel giorno della sua entrata in vigore e nel giorno precedente (`tools/check_repo.py`); entrambe devono corrispondere a `corpus.json`. I risultati sono in `REPRODUCE.md`.
+- **Confronto con una seconda copia ufficiale:** ogni comma delle leggi del 2023 e del 2026 è stato confrontato con il testo HTML su vatican.va. La legge del 2026 corrisponde interamente; nella legge del 2023 differisce una virgola, nel preambolo ("Vaticano che, il Trattato" nel PDF del Governatorato, qui mantenuto, contro "Vaticano, che il Trattato" su vatican.va).
+- **La modifica del 2025 è stata riprodotta:** il nuovo art. 8, n. 1 è ripreso parola per parola dal motu proprio come stampato dal Governatorato e applicato al testo del 2023.
+- Il repository viene ricostruito una seconda volta dagli stessi dati e deve produrre hash identici.
 
-## What "author" means
+## Che cosa significa "autore"
 
-The author of a commit is the law that made the change, with an e-mail address that cannot exist, so `git blame` and `git log --author` name laws. The committer is always Lexifina.
+L'autore di un commit è la legge che ha introdotto la modifica, con un indirizzo e-mail che non può esistere, così che `git blame` e `git log --author` indichino leggi. Il committer è sempre Lexifina.
 
-- The first commit of each act is the act as enacted.
-- A replacement Fundamental Law is credited with every provision it changed, inserted or removed. A provision whose words did not change keeps its earlier author: Art. 1 to 3 and 5, for example, still read as the 2023 law wrote them.
-- Blame credits whole lines (one paragraph per line). Use `git log -p --word-diff` to see exactly which words each change made.
+- Il primo commit di ogni atto è l'atto nel testo originario.
+- A una Legge fondamentale sostitutiva è attribuita ogni disposizione che ha modificato, inserito o soppresso. Una disposizione il cui testo non è cambiato mantiene l'autore precedente: gli artt. da 1 a 3 e 5, per esempio, risultano ancora come li ha scritti la legge del 2023.
+- Blame attribuisce righe intere (un comma per riga). Usate `git log -p --word-diff` per vedere esattamente quali parole ha introdotto ciascuna modifica.
 
-## What it does not show
+## Che cosa non contiene
 
-- **The first Fundamental Law (7 June 1929, n. I)** and the 2000 law's preamble: the official site has no text of them (its copy of the 2000 law gives the preamble only as a press summary).
-- **Annexes A to C** (the models of the flag, coat of arms and seal) are drawings and are left out.
-- **Amendments of LXXI:** the official site publishes it as enacted and lists no amending act. If one exists, it is not here.
-- **Other laws.** Vatican City applies Italian codes as received (civil, criminal and their procedures, under LXXI arts. 4 to 8) with its own amending laws; those are not in this record yet. Law n. VIII of 2013 (complementary criminal provisions) is parsed but not yet published here, because the laws that later amended it have not yet been replayed.
-- **No OCR.** Every text comes from the publisher's own text layer. Five character errors in that layer were corrected and are listed in REPRODUCE.md (for example "Ada Apostolicae" for "Acta Apostolicae").
+- **La prima Legge fondamentale (7 giugno 1929, n. I)** e il preambolo della legge del 2000: il sito ufficiale non ne riporta il testo (la sua copia della legge del 2000 presenta il preambolo solo come sintesi giornalistica).
+- **Gli allegati da A a C** (i modelli della bandiera, dello stemma e del sigillo) sono disegni e sono esclusi.
+- **Le modifiche della LXXI:** il sito ufficiale la pubblica nel testo originario e non elenca atti modificativi. Se ne esistono, non sono qui.
+- **Altre leggi.** La Città del Vaticano applica i codici italiani recepiti (civile, penale e le relative procedure, ai sensi degli artt. da 4 a 8 della LXXI) con proprie leggi di modifica; queste non sono ancora nella registrazione. La legge n. VIII del 2013 (norme complementari in materia penale) è già analizzata ma non ancora pubblicata qui, perché le leggi che l'hanno successivamente modificata non sono ancora state riprodotte.
+- **Nessun OCR.** Ogni testo proviene dal livello di testo dello stesso editore. Cinque errori di carattere in quel livello sono stati corretti e sono elencati in REPRODUCE.md (per esempio "Ada Apostolicae" per "Acta Apostolicae").
 
-## How it is built
+## Come viene costruito
 
-`tools/fetch.py` downloads each official file once with curl, cached by the sha256 of its URL, and logs every request. `tools/parse.py` reads only that cache: it takes the text layer of each PDF (PyMuPDF), joins the printed lines into one paragraph per line, splits the law into its preamble, title headings, articles and closing formula, applies the 2025 motu proprio, and writes `corpus.json`. `tools/verify.py` compares the result with the vatican.va copies. The shared builder `tools/build.py` turns `corpus.json` into the commits. `REPRODUCE.md` lists every source, command, tool version and decision, and the result of the hash-for-hash rebuild.
+`tools/fetch.py` scarica una sola volta ogni file ufficiale con curl, in una cache indicizzata dallo sha256 del suo URL, e registra ogni richiesta. `tools/parse.py` legge solo quella cache: prende il livello di testo di ogni PDF (PyMuPDF), unisce le righe stampate in un comma per riga, suddivide la legge in preambolo, intestazioni dei titoli, articoli e formula finale, applica il motu proprio del 2025 e scrive `corpus.json`. `tools/verify.py` confronta il risultato con le copie di vatican.va. Il costruttore comune `tools/build.py` trasforma `corpus.json` nei commit. `REPRODUCE.md` elenca ogni fonte, comando, versione degli strumenti e scelta, nonché il risultato della ricostruzione con hash identici.
 
-## Sources
+## Fonti
 
-| Source | What it gives | Used for |
+| Fonte | Che cosa fornisce | Uso |
 | --- | --- | --- |
-| [Governatorato, Legislazione e normativa](https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html) | Official PDFs of each law as promulgated; the Governatorato's page carrying the motu proprio of 19 November 2025. No consolidated texts and no dated versions. | The text of every version |
-| [vatican.va](https://www.vatican.va/) | HTML copies of the 2023 and 2026 Fundamental Laws | Checking the parsed text |
-| [Sala Stampa della Santa Sede](https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/07/31/0611.pdf) | Bulletin n. 0611 of 31 July 2026 | The publication day of the 2026 law |
+| [Governatorato, Legislazione e normativa](https://www.vaticanstate.va/it/stato-e-governo/legislazione-e-normativa.html) | PDF ufficiali di ogni legge come promulgata; la pagina del Governatorato che riporta il motu proprio del 19 novembre 2025. Nessun testo coordinato e nessuna versione datata. | Il testo di ogni versione |
+| [vatican.va](https://www.vatican.va/) | Copie HTML delle Leggi fondamentali del 2023 e del 2026 | Verifica del testo analizzato |
+| [Sala Stampa della Santa Sede](https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/07/31/0611.pdf) | Bollettino n. 0611 del 31 luglio 2026 | Il giorno di pubblicazione della legge del 2026 |
 
-The State's laws are published in the Supplemento per le leggi e disposizioni dello Stato della Città del Vaticano of the Acta Apostolicae Sedis, and recent ones first in L'Osservatore Romano. The world sources register notes that publication on vaticanstate.va has had legal effect since 2024; this was not confirmed from a legal text.
+Le leggi dello Stato sono pubblicate nel Supplemento per le leggi e disposizioni dello Stato della Città del Vaticano degli Acta Apostolicae Sedis e, quelle recenti, prima su L'Osservatore Romano. Il registro mondiale delle fonti segnala che dal 2024 la pubblicazione su vaticanstate.va ha efficacia legale; ciò non è stato confermato da un testo normativo.
 
-## Licence
+## Licenza
 
-See [LICENSE](LICENSE). The legal texts come from the Governatorato dello Stato della Città del Vaticano (vaticanstate.va), whose site states "Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati". This repository is private. Lexifina's arrangement, messages, tables and tools are CC0.
+Si veda [LICENSE](LICENSE). I testi normativi provengono dal Governatorato dello Stato della Città del Vaticano (vaticanstate.va), il cui sito riporta "Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati". Questo repository è privato. L'organizzazione, i messaggi, le tabelle e gli strumenti di Lexifina sono CC0.
 
-This repository is not legal advice.
+Questo repository non costituisce consulenza legale.
 
-## In italiano
+Questa è una traduzione della versione inglese ([README.en.md](README.en.md)); in caso di differenze, prevale la versione inglese.
 
-Questo repository contiene la storia della legislazione dello Stato della Città del Vaticano in git: un file per ogni disposizione e un commit per ogni legge, datato al giorno della sua entrata in vigore e attribuito alla legge che ha introdotto la modifica. Contiene la Legge fondamentale (testi del 26 novembre 2000, del 13 maggio 2023 e del 31 luglio 2026, e il motu proprio del 19 novembre 2025 che ha sostituito l'art. 8, n. 1) e la Legge sulle fonti del diritto n. LXXI del 1° ottobre 2008 nel testo originario. I testi sono quelli pubblicati dal Governatorato su vaticanstate.va. `python tools/on.py <data> legge-fondamentale` restituisce il testo vigente in una data. Non costituisce consulenza legale.
+## Per saperne di più
+
+Dal repository [lexifina/global-law](https://github.com/lexifina/global-law) (pagine in inglese):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): tutte le funzionalità e ciò che ogni corpus deve supportare (`git blame`, `law.py`, strumenti MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): domande e risposte · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proporre una modifica · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): server MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): come è stato realizzato · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): quanto è aggiornato ogni corpus · [Monitoraggio](https://github.com/lexifina/global-law/tree/main/monitoring): se gli aggiornamenti funzionano · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): come ogni fonte ufficiale viene controllata per individuare le modifiche
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): quanto sono veloci gli strumenti, misurato
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): grafici e collegamenti attraverso il diritto di tutto il mondo
+- [Vulnerabilità](https://github.com/lexifina/global-law/tree/main/vulnerabilities): errori nei testi così come sono stati pubblicati
