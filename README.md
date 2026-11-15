@@ -30,7 +30,8 @@ Il testo è in italiano, la lingua delle leggi dello Stato, così come lo pubbli
 
 - **[Chiedi a Claude del diritto vaticano](https://global-law.lexifina.com/v1/try_claude?country=vatican-city)**: apre Claude con una prima domanda già pronta.
 - **[Chiedi a ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=vatican-city)**: la stessa domanda in ChatGPT.
-- **[Chiama l'API dal browser](https://global-law.lexifina.com/v1/search_law?query=potere+legislativo&jurisdictions=vatican-city)**: una ricerca di "potere legislativo" nel diritto vaticano, con risposta in JSON. La documentazione è [qui](https://lexifina.com/api/global-law).
+- **[Cerca nel diritto vaticano sul nostro sito](https://lexifina.com/law?country=vatican-city&q=potere+legislativo)**: una ricerca di "potere legislativo", con il testo di ogni disposizione e le sue versioni, senza account.
+- **[API REST per sviluppatori](https://global-law.lexifina.com/v1/search_law?query=potere+legislativo&jurisdiction=vatican-city)**: la stessa ricerca in JSON, senza chiave. La documentazione è [qui](https://lexifina.com/api/global-law).
 
 Entrambi gli assistenti leggono l'archivio tramite il connettore gratuito Global law (MCP, `https://global-law.lexifina.com/mcp`); la prima volta la chat ti dà il link per aggiungerlo. Puoi chiedere in italiano o in inglese.
 
