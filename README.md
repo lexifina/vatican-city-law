@@ -61,6 +61,7 @@ Il primo commit di ogni atto è l'atto nel testo originario. A una Legge fondame
 - Ogni comma delle leggi del 2023 e del 2026 è stato confrontato con la copia HTML su vatican.va (`tools/verify.py`): la legge del 2026 corrisponde interamente; nella legge del 2023 differisce una virgola del preambolo, e si mantiene il testo del Governatorato.
 - La modifica del 2025 è riprodotta: il nuovo art. 8, n. 1, ripreso parola per parola dal motu proprio come stampato dal Governatorato, è applicato al testo del 2023.
 - Una seconda costruzione dagli stessi dati produce hash identici. La storia viene solo estesa: nessun commit di merge, nessuna data che torna indietro, nessun commit datato dopo la costruzione.
+- [vulnerabilities/](vulnerabilities/): possibili errori di redazione in questo diritto, trovati dai rilevatori di global-law e controllati a mano. Non ancora eseguito.
 
 ## Che cosa non mostra
 
@@ -84,6 +85,10 @@ Vedi [`LICENSE`](LICENSE). I testi normativi provengono dal Governatorato dello 
 Nessun modello di IA ha scritto, tradotto o corretto testo normativo; gli script di scaricamento, analisi e verifica sono stati scritti da un modello di IA (vedi [`REPRODUCE.md`](REPRODUCE.md)).
 
 Questa è una traduzione della versione inglese ([README.en.md](README.en.md)); in caso di differenze, prevale la versione inglese.
+
+## Visualizzazioni
+
+- [visualisations/](visualisations/): grafici tratti da questo repository. Non ancora disegnati.
 
 ## Per saperne di più
 

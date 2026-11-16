@@ -61,6 +61,7 @@ The first commit of each act is the act as enacted. A replacing Fundamental Law 
 - Every paragraph of the 2023 and 2026 laws was compared with the HTML copy on vatican.va (`tools/verify.py`): the 2026 law matches in full; in the 2023 law one comma in the preamble differs, and the Governatorato's text is kept.
 - The 2025 change is replayed: the new art. 8, n. 1, word for word from the motu proprio as the Governatorato printed it, applied to the 2023 text.
 - A second build from the same data gives identical hashes. History is append-only: no merge commits, no dates going backwards, no commit dated after the build.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -82,6 +83,10 @@ The first commit of each act is the act as enacted. A replacing Fundamental Law 
 See [`LICENSE`](LICENSE). The legal texts come from the Governatorato dello Stato della Città del Vaticano, whose site states "Copyright © 2026 by Governatorato dello Stato della Città del Vaticano | Tutti i diritti riservati"; no open licence is offered for them. Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text; the fetch, parse and check scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
